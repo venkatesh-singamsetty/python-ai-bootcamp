@@ -21,8 +21,14 @@ sc = StandardScaler()
 X_train = sc.fit_transform(X_train)
 X_test = sc.transform(X_test)
 
-from sklearn.linear_model import LogisticRegression
-classifier = LogisticRegression(random_state = 0)
+# Training the Logistic Regression model on the Training set
+# from sklearn.linear_model import LogisticRegression
+# classifier = LogisticRegression(random_state = 0)
+# classifier.fit(X_train, y_train)
+
+# Training the KNN model on the Training set
+from sklearn.neighbors import KNeighborsClassifier
+classifier = KNeighborsClassifier()
 classifier.fit(X_train, y_train)
 
 y_pred = classifier.predict(X_test)
@@ -44,3 +50,17 @@ print(bias)
 
 variance = classifier.score(X_test, y_test)
 print(variance)
+
+# Future Prediction
+dataset1 = pd.read_csv(r"final1-sample.csv")
+d2 = dataset1.copy()
+dataset1 = dataset1.iloc[:, [3,4]].values
+
+from sklearn.preprocessing import StandardScaler
+sc = StandardScaler()
+M = sc.fit_transform(dataset1)
+
+y_pred1 = pd.DataFrame()
+
+d2['y_pred1'] = classifier.predict(M)
+d2.to_csv('final1.csv', index = False)

@@ -63,7 +63,7 @@ https://learn.nareshit.com/users/sign_in
 
 ## Push changes to remote repository
 ```bash
-DATE='day-43-2026Jan28-ml-classification'
+DATE='day-45-2026Jan30-ml-smr'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 
@@ -82,7 +82,7 @@ cd ..
 git add .
 git commit -m "Updated ${DATE}"; git push origin develop; git status
 
-DATE='day-44-2026Jan29-ml'
+DATE='day-46-2026Jan30-ml'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 touch ${DATE}/README.md

@@ -2391,11 +2391,62 @@ customer vehicle purchase
 in db --future records will stored 
 behind the scent ml guy will predicton -- proba of this custoerm purchase the -- 1 or 0 
 
-=== please validation data can you 
+=== 29th
+
+logistic logit or maxent classifier 
+		how to prdict validation data 
+		val data vs live data 
+		3 phase model testing will perform 
+		mean of it 
+		bunch of classiifcation model 
+		best accuracy model & best model testin & best avg score 
+		pickle 
+		deploly
+		
+company -- 1wesbite -- 
+		small code ml code -- we deopy part of website
+			book the flight -- probality of tickete confirmation 
+			
+datbase - 
+		compnay -- db is create 
+				i need te prev previous 
+	
+i will share the code ( after the class)
+
+	
+=== KNN ALGORITHM ( k nearest neighbour) 
+		
+1- distance matrix 
+		Euclidian distance  
+		manhatten distance 
+		
+knn -- how th edistance matrxi & nerest help to classify the data 
+
+knn classificaio -- based on k point we classify the new datapoint 
+knn regression -- based on k point we take mean of nearest neighbours 
 
 
+does outlier is impact to knn model -- yes | no  --- (yes ) 
+does outlier is impact to logistic regression -- (no)  cuz of sigmoid curve adjsute outlier 
 
 
+when i apply these 2 algo to 1 dataset ( accuracy will change) 
+when ever multi model 1 datraset 
+
+overfitting == techniqe 
+
+logistic -- sigmoied categr, sovler - 
+knn -- distance, ed, md outleri will impaact 
+
+binar class classiifcaiton 
+multiclass classificaton apply -- images, text
+
+same dataset 
+knn - 95%    
+logistic -- 92.50%  
+svm -- 
+
+==== 30th
 
 
 
