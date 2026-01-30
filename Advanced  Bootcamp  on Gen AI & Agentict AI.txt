@@ -59,8 +59,7 @@ gen ai, agenti ai programme we need to 1 program language
 
 python -- to learn we need to install some application 
 
-
-ide -- user or developer write the code, debug the code & get output
+Ide -- user or developer write the code, debug the code & get output
 
 popular ide -- 
 
@@ -70,14 +69,11 @@ popular ide --
 		spyder
 		google colab
 
-
 online team -- I proper wifi connect 
 
 == vs code explanation 
-
 Download from google & install as per your os 
-
-install some extension for ds, da, ai, ml, genai, agentic ai, llm 
+Install some extension for ds, da, ai, ml, genai, agentic ai, llm 
 
 1- AREPL for python
 2- AutoDocstring - Python Docstring Generator
@@ -1463,23 +1459,1054 @@ https://www.youtube.com/watch?v=ChJEb5Usxug&t=3958s
 seaborn -->
 https://www.youtube.com/watch?v=JhfTZ1QWN6A&t=4561s
 
-==== 5th 
+==== 5th
+
+what is pandas -- ocean ( no need to go indepth )  only pandas 
+pands + plt + sns + np  -- project
+
+meal -- mutliple itesm ( rice + chapt + swee + ice + curt) 
+
+what if integrateion llm model ( ollam) + dataframe 
+
+dataset + ollama + gemma llm 
+		we got respone  we have few missing valu e-14
+eda every attribute we clean .
+
+create a folder  -- who ever got please fix it later 
+for loop to clean everything together
 
 
+from the day-1 till today -- we only focus on strucuture data 
+			llm + dataset == insights 
+					statstic + ml 
 
+Unstrcuture data -- AI 
+GEN AI 
+LLM 
+PROMPT 
+AGENTIC AI 
 
+=== Intro statstic 
+Stats for ml 
 
+1- population vs sample
+2- descriptive statstic
+3- inferential statstics 
+4- advance stats 
+5- r2, adjuste r2, anova, type 1 & type 2 erros , mae, mse, rmse 
 
+ml -- regression model 
+		classification model 
+		clustering model 
+		
+=== today check the code which is ( check the code ) please ask me code is not working 
+			
+========== 6th 
 
+stats -->
 
-	
-					
+1- population vs sample
+2- descriptive statstic
+3- inferential statstics 
+4- advance stats 
+5- r2, adjuste r2, anova, type 1 & type 2 erros , mae, mse, rmse 
 
+sampling -- population to sample 
+inference -- sample to population 
+population -- parameter | sample -- statistics 
+statistics -- 90% of the data we going to work in sample data 
+
+1 - population formula & sample formula 
+
+2- Descriptive stats (	.describe  )
+		measure of central tendency -- clear 
+					mean
+					median
+					mode 
+		measure of symmetry 
+				skewness -- where the data stays 
+				kurtois  
+		measure of variablility 
+				variance 
+				standard deviation 
 				
-			
+
++ve skew == mean >median & Mode  ( data is at left  & Outlier is at right ) 
+
+0 skew == (mean = median = mode)data is at center & no outlier )
+		this graph is called (normal distribution == bell curve == gausian distribution = 0 symmetric)
+		
+-ve skew == mode > median > mean ( data is at right & outlier is at left)
+normal distribution == gausian distribution == bell curve 
+
+
+scipy. python intrdouce those thing ( numpy, panda ) -- ordinarl; 
+--- 		
+kurtosis  -->
+---
+
++ve skew = +ve kurtois  == platykurtic 
+-ve skew = -ve kurtosi == leptokurtic 
+0skew == normal distribution == mesokurtic 
+
+when you guys working on dataset number -- graph behaveiou is difference 
+everytime we need to must focus on normalt distribute = 0 skew ( mean = median = mode)
+
+variance 
+standard deviation 
+
+population mean -- Mu  | sample mean = x-
+population variance -- sigma)2 | sample variance = S2 
+Pop
+Variance -- spread of the data around mean 
+
+	All formula .describe() 
+	
+
+population vs sample -- we complete 
+descriptive stat --
+		central tendency -- mean, median, mode
+		assymetry - skewness & kurtois
+		variability -- variance and standard deviation 
+		
+inferential stats --
+		probability 
+		distribution  -- born from prob 
+		using help these prob we will adjust outlier 
+		
+dice has how many side -- 6 side 
+
+if you roll a dice -- proba of getting 1 -- 1/6
+pro of getting 2 - 	2/6
+pro of getting 3 - 3/6 
+	
+head or taile 
+pr 1/2 1/2 
+roll 1 dice -- uniform distribution 
+
+===== 6th
+
+2dice has how many side -- 12 side 
+when you roll 2 dice what would be the prob of getting 1 
+
+distribution concept borns from -- probability 
+
+roll of 1 dice -- uniform distribution
+roll of 2 dice -- normal = gausian distribution ( m = m = m) 
+----
+confidence interval -->
+----
+10th class board exam & exam went well 
+
+kid go home - 95% i will be confident that score 80-90 
+		after result if the kid got score 85  ()
+				acept the confidence  
+				
+99% confidnece score (90-98) 
+		accept the confidence 
+		
+produt base company 
+	price tag will desing just like that ( lot of statistical test is going on) 
+	
+how to test | generate review | 
+
+first divsion -- 60% 
+a ++ -- >80% 
+distinction -- 90% 
+
+=== who decide the % 
+
+researcher has done that ( lot example they have taken)
+
+statistical test ( test alwasy will perforn based on 95% & 99% only) 
+
+95% confident what is errror -- 1-alphs ==alpha is error terme 
+
 					
+confidence interval -- 
+	lower confidence point -- estimates 
+	upper confidence point  -- estimaates 
+	
+confidence interval divide into 2 part 
+		population == population variance known = z-test 
+		sampel == population variance unknow = t-test 
+
+===
+regressio model -- after buil ml model -- validat ml model -- statica r2, adjusted r2 
+classification - after ml cmodel -- valieation -- score accurcay -- confusion matrix 
+
+standard error - sigma / root n
+
+=== 8th
+
+confidence interval 
+	population - z test  
+	sample - t test 
+
+99% problem statment we will be working on t-test sample not population 
+
+stats is an ocean 
+math is an ocean 
+you need to teate all the technoloy 
+ 
+in the market new product lunched -- who will keep the price tag ?
+ does the price tag will decision or some test case behined the scene 
+ 
+by ranodm peopr exper, market -- opiniou is required 
+	once you got everybody opineio you need to test case 
+			z-test or t-test 
+			
+how to compute the t-test or z-test 
+how to integreate this learning produce 
+
+use case -- 
+	what would be average salary of datasceintist in usa ?
+	
+30 random people 
+			30 reandom answer 
+being a statistician you need to test this use case 
+
+		95% confidence answer is betwee -- range 
+		99% confidence answer is between -- 
+
+z-score == standiarize techniqu to conver mean - 0 & standard deviation 1 
+					machine learning this concept we called as STANDARIZATION ( FEATURE SCALING) 
+					time series model this concept we called as (WHITE NOISE)
+
+z-table == statistic table which help statistician to compute z-test or z-statistica test 
+
+z-test == z-test is one of the testing which apply to population data to find 
+						confience interval for 95% & 99% 
+
+======= 9th
+
+Hypothesis testing 
+
+statement -- in hyd apples are expensive 
+1 apple cost is 1000 -- hypothesis 
+
+	your frient will ask to his few frendin hyd ( mean
+	
+we need to test the hypothesis ( hypothesis testing) 
+
+	 Null hypothesis (H0)
+	 Alternative hypothesis (H1) 
+
+statmenet - apples are expensive 
+
+1kg apple cost is -- 2000 ( hypothesis) -- this hypothesis needs to be tested 
+
+you take random people who ever hyder 
+	average apple cost 200 
+	
+200 == 2000
+200 != 2000 ( reject the null hypothesis) == accept the alternative hypothesis 
+1800 == 2000 ( accept the null hypothesis) 
+
+
+== gen ai, llm , prompt, agent -- stats question 
+== stats ( gen ai
+
+ml -- we buig regression table -- 
+
+stats -- null hypotheis 
+ml -- we need to remove irrelavant attribute 
+
+p-value ( 0.05 we need to consider p-value)
+ml -- multiple linear regression all the stats we will introduce 
+---
+stats will connect to regression -->
+---
+
+13th - 18th -- we have pongol holiday  
+
+MAE ( MEAN ABSOLUTE ERROR )
+		actual - predicted  == 
+		(error = residual = loss function = cost function)
+
+MSE ( MEAN SQUARE ERROR )	
+			(actual - predicted)** 2
+			
+RMSE (ROOT MEAN SQUARD ERROR) 
+			root of (A-P)**2 
+
+how to check regression model is best 
+					R2 & Adjsted R2
+
+how to check best classification model 
+					confusion matrix 
 					
+ANOVA 
+
+
+
+
+==
+1 - P-VALUE 
+2- hypothesis testing 
+						null hypotheis 
+						alternative hypothessis 
+						accept the null hypothe  ( close towards mean)
+						reject the null hypothesis (far from mean) 
+3- mae 
+	mse 
+	rmse
+	r2
+	adjusted r2 
+	r2 & adjusted r2 range is 0-1 then regression model would be accurate 
+
+4 - classifcation model we must need to check confusion matrix 
+		what is confusion matrix > at ml 
+			tp (true +Ve )
+			tn (true -ve)
+			fp (false +ve) 
+			fn (false -ve) 
 			
+
+	
+
+
+			
+
+
+	
+
+
+
+machine learnin g-->
+		Regression -- ml developer you build regressioon model you need to check model is accuracy or not
+								base on r2, adjusted r2, rmse 
+								
+								
+		performance measure of regression ?
+		
+		classifcation -- performance measure 
+				confusion matrix | 			after my expalna matrix no more confusion
+				
+					
+stats -- may feel boar ( this is one ask in inter ) 
+
+==== 10th
+
+ANOVA 
+SSE 
+SSR
+SST 
+R2
+ADJSTED R2 
+REGRESSION TABLE 
+
+statistic towards ml understaand 
+Intro to ml 
+model 
+
+SSE -- actual point - predicted for all the datapoint 
+SSR - predicted point - 	avg for all the datatpoint 
+SST -- actual - avg 
+SST = SSE + SSR 	
+
+10lakh records-- you never calculatre manually thats why we introduce to framwork 
+
+when ever you build any regression model make sure regressio model accrtacy should be 0-1  
+	you need to rebuild model againg
+
+if you work with multiple variable then you need to apply adjsuted r2
+
+R2 > Adjusted R2 
+range is alwasy between 0-1 
+
+stats for ml what are topics we arecompelte d-13
+
+==== 12th 
+
+machine learning -- machine will learns from historical data 
+
+DATA -->
+
+	HISTORICAL DATA - till today 
+			TRAINING PHASE 
+			TESTING PHASE 
+	FUTURE DATA -- from tomorrow 
+			VALIDATION PHASE 
+			
+what is machine leanring 
+what is tradianla learning 
+what is historical data 
+what is future data 
+type of machine learning -- regression & classification -- regression, clasificaiton & clustering 
+
+historical data -- training phase & testing phase 
+
+amazon.com -- first time (select some ite) 
+relogin -- same item would reflect 
+
+machin are learning from histroical data 
+
+training phase 
+testing phase 
+
+how to train the data to machine to build ml algorithm 
+
+--------
+ML WORKFLOW OR ML | data preproceissing PIPELINE -->
+-------
+1- dataset - done 
+2- independent variable (x) & dependent variable(y)  - done 
+3- x --> x_train & x_test  
+4- y -->  y_train & y_test
+5- divide the data into 80-20 |70-30 | 75-25 
+
+who will not understan the guys who didnt learne eda -- they never understand 
+eda -- foundation to ml 
+those who eda thye love this class  -- to be honest 
+
+==== 19th
+
+data processing pipeline -->
+--
+1- dataset --  imported 
+2- independent variable(x) & dependen variable (y) - done 
+3- data cleaning ( missing eda technique) 
+4- x -- x_train & x_test 
+5- y -- y-train & y_test 
+
+
+ml model pararmeter vs llm model parameter 
+simpleimputer which i call from sklearn.imputer
+
+which helps to fill missing value 
+
+sklearn.impute 
+simpleimputer 
+fit & transform -- 
+
+parameter tunning -- system bydefault considering mean strategy 
+hypererparameter tunning -- user change the system parameter to median 
+
+when the values are suffle does it impact on accruacy ?? 
+
+ml devloper some time when you do parameter tunning model accuracy -- 70% 
+		client want 80% 
+	
+on that case you must need to use hyperparameter tunning 
+
+
+ml code -- 20 day i will make you expert ( experienced ml developer ) 
+dataprocessing pipeline 
+parameter tunning in ml model 
+hypererparameter in ml model 
+
+feature engineering -- eda techniques 
+feature selection -- rfe 
+feature scaling -- normalization, standarization 
+
+=== ML 
+
+REGRESSION model -
+		simple linear regression 
+		multiple linear regression 
+		polynomial regression 
+		regularization ( l1, l2) 
+		time series regression before rnn concept  
+		ann regression 
+		
+regression project - 14 algoriytm at one go  
+
+CLASSIFICATION model
+		logistic 
+		svm ( support vector machine)
+		knn ( k nearest neighbour)
+		decission tree 
+		random forest 
+		naive bayes (baysian theorem) 
+		xgboost 
+		lgbm 
+		ann classifier 
+		
+CLUSTERING model 
+	pca 
+	kmeans clustering 
+	hierarchical clustering 
+	
+mlops
+cicd project 
+	
+AI section 
+	nlp
+	dl
+	nn
+	compter vison 
+	
+gen ai 
+
+llm 
+
+prompt
+
+agentic ai 
+
+ml -- supervised learning -- model inteacts with strcuture data 
+ai -- unsuperivised learning -- model interacts text, image, video, streaming, api 
+gen ai, agentic ai -- reinforcement learning ( model interactis with envrionment) 
+
+after complete -- ml has less job -- automized ml model 
+
+15+ -- how to integrate this learing in day to day work 
+	eco system -- managment listen to you 
+	
+do not connect java -- ai, 
+		data architecture a-- ai 
+		
+sklearn framework --
+sklearn.imputer 
+sklearn.model_selection
+sklearn.preprocessing 
+
+xgboost, lgbm 
+
+=== 20th 
+
+simple linear regression algorithm 
+y = mx + c 
+	
+	x = 3 & y = 3.6 & m = 0.4 can you calculate c ? 
+
+	y = mx + c 
+	c = y - mx 
+	c = 2.4 
+	
+y^ = 0.4x +  2.4 
+
+how to get best fit line 
+y^ = mx + c 
+
+Simple linear regression model we will be using only 2 variables
+how to implate these mat
+
+you ml algoriytm in each & every business 
+
+algorithm are same -- differnence dataset 
+ml concept -- dataset domain will change 
+
+we import dataset
+x, y 
+xtrain, xtest, ytrain, ytest -- 80-20 
+
+train the data ( x_train & y_train)
+linear aregression algo 
+regressor model we built
+
+====  21st 
+
+bias, variance , 
+what ever stats concept i explained those things we will introduce in the practicle 
+how to save the model using pkl file 
+what is pkl file how to save entire model to object 
+
+===== 
+are train the data or test data 
+
+trin the data -- x_train, y_train == we must get one score ( training score) 
+bias == training point 
+
+test the data -- x_test, y_test == we must get test score ( test score ) variance 
+
+bias -- training data 
+variance -- testing data 
+
+bias - 0.94 variance - 0.98 -- a  ==> best fit model ( low bias low variance) 
+bias - 0.94 variance - 0.34 -- b ==> high bias low variance ==> underfitting model 
+bias - 0.43 variance - 0.91 -- c ==> low bias high variance ==> overfitting model 
+
+R2 -- 0.94 | Bias -- 0.94 | variance - 0.98 
+once final stage we confirmed we build best linear regression model 
+
+
+can you please explained what be  dataset size where you build ml models ? 
+		 bring the answer tomorrow ? clear
+		 
+=== 22nd 
+50 line code -- we built model regressor which holds slr algoriytm 
+algoritm was fited on x train , ytrain 
+
+train r2 | test r2 - 0.9  (range of r2 0-1) 
+		
+57 ine code you wrote -- size 1mb, 10mb
+
+pickle file -- binary file -- code size will reduce 1kb ( while front ) front end user response should be faster 
+
+A pickle file in Python is a file used for storing serialized Python objects in a binary format. The pickle module converts a Python object hierarchy (like a dictionary, list, or custom class instance) into a byte stream, a process called pickling or serialization. 
+
+what is proper way wirithe code so that it looks like 
+
+make sure you save all the file one folder -- excel, dataset, .pkl. backed end, 
+ 
+ in this project we used only 2 attribute -- y = mx + c ( x- iv  | y - dv) 
+ no orgnzation using 
+ ---
+ lets introuce mutliple linear regression algorithm -->
+ ----
+  practicle -- how to find out m , c 
+  without reg model you canot find slope & intercept 
+ if you any error ( vs code -- ml folder -- regression model - slr -- past all the code 
+python3 streamlit run app.py 
+
+=== html, css, djago, flask () 
+== chatgpt stremalit , google gemin -- power ful
+---
+multiple linear regression algorithm -->
+----
+y = m1x1 + m2x2 + m3x3 + m4x4 + mnxn 
+==== 
+
+slr project -- 3 days -- we underst indepht of ecosyste how ml mode predict 
+
+mlr -- multiple linear regresson 
+
+train the data -- trained model -- user , ml developer train 
+
+---
+problem statment or use case -->
+---
+being ml devloer, datasciencetst, every oragnization in the world they must have inversetme on mutliple portfolio 
+being you have to give suggest to redice more invest cost to save compnay losses 
+you build ml model and which concept you will apply to find out best portfolio best attribute to satisfy company needs 
+
+1- I will shared the dataset 
+2- we will ml model 
+3- stats api 
+4- recursive feature elimination ( backward ellimination) 
+5- if we removed unimporte portfolio attrbute 
+6- how did we find out irrelatve attreibute to my busines 
+7- p-value 
+
+===== 23rd
+
+from the 1st code till 30 we built ml model 
+
+over all i have 7 variable 
+
+constant, 3dummy, digita, r&d, promotion 
+
+
+https://www.statsmodels.org/stable/api.html -- future reference 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 Profit   R-squared:                       0.951
+Model:                            OLS   Adj. R-squared:                  0.945
+Method:                 Least Squares   F-statistic:                     169.9
+Date:                Fri, 23 Jan 2026   Prob (F-statistic):           1.34e-27
+Time:                        18:19:33   Log-Likelihood:                -525.38
+No. Observations:                  50   AIC:                             1063.
+Df Residuals:                      44   BIC:                             1074.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          1.1794      0.164      7.204      0.000       0.849       1.509
+x1             0.8060      0.046     17.369      0.000       0.712       0.900
+x2            -0.0270      0.052     -0.517      0.608      -0.132       0.078
+x3             0.0270      0.017      1.574      0.123      -0.008       0.062
+x4            41.8870   3256.039      0.013      0.990   -6520.229    6604.003
+x5           240.6758   3338.857      0.072      0.943   -6488.349    6969.701
+==============================================================================
+Omnibus:                       14.782   Durbin-Watson:                   1.283
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               21.266
+Skew:                          -0.948   Prob(JB):                     2.41e-05
+Kurtosis:                       5.572   Cond. No.                     8.45e+05
+==============================================================================
+feature elimination using p-value ( backward elimination ) RFE (Recursive feature elmination) 
+
+=== overfitting vs underfitting  
+
+train the model with more attribute then overfitting problem comes 
+if overfitting problem will happen then model give less accuracy high error 
+===
+train the model with less attribute then underfitting problem happend 
+if underfit model will less accuracy and high error 
+===
+what are technique we will implment if model underfits 
+		by adding more realavat attribute 
+
+=====
+Technique we used if model overfitting happend 
+	PCA (Principal componenet analysis) 
+	Cross validation
+	Ensamble learning 
+	Drop out the neurons  | 
+	Regularization (l1, l2) 
+	
+Regularization(l1 - lassi, l2-ridge ) 
+	How regualarization technique reduce overfitting 	
+
+===  24th
+
+ml model overfit -- less accuracy 
+cnn model overfit -- cat become dog 
+genai model overfit -- ipl ( stock market) 
+
+if we train the model with more attribute -- overfit
+		if i reduce the attribute -- best model ( 1 scenario)		
+if independent variable coeffeiceint are very high then also overfittin will happen 
+		
+	1- either more attribute -
+	2- eithe high coef of independent variable 
+
+
+Regularization -- 2 part 
+	ridge == l2  
+	lasso == l1 
+	elasticnet == (l1  + l2)
+	
+regularizion is technqiue to scale down high coef - low coef to reduce overfitting -- l2 ridge 
+		l2 regression or l2 regularization 
+	
+l1 regularization is one of the techniqe it reduce high coef - 0 -- 
+l1 or l2 -- which feature elimination ( l1 is called feature elimination ) 
+
+training instistue vs orgnaization 
+
+trainin inst -- 1 or 2 
+oragnizta -- 2 month or 3 month
+===
+
+banking project -->
+---
+everytime we not build reguarlization model 
+
+every algoriytm has inbuild parameter called (reguarlization) -- model itself coeffcient fittend 
+	when we build advane modle -- this 
+===	
+what l1, l2 doese, thoery, practicle 
+====
+learned = 	FEATURE ENGINEERING -- eda technique (variable identification, uni,bi, cor, imputation, transformaton) 
+learneing == FEATURE SCALING -- normalization, standarization 
+learned = FEATURE SELECTION -- RFE based on p-value, Lasso regression, based on strong busines understanding 
+		
+without model accuracy will not accuracy 
+
+normalization also called min - max scaler ( 0 - 1) 
+		age | salar -- ( 0 - 1 )
+		
+standarization -- we will get normal distributeion hear 
+normalization -- we wont normal distribution 
+
+=== logistic, svm, knn, naive baye, xgb, lgb, dt, 
+=== end to end regression model 
+=== end to end classificatio model 
+=== 
+	
+what could be gold price -- next month ( regression number )
+
+regression model prediction alwasy be number only 
+classifcaiton model prediction alswasy binary dataa 
+to get preidction we have to apply all these technique 
+
+==== 26th 
+poly nomial --- we increase degree of independent variable  
+		b1x1 + b2x12 + b3x13
+		
+
+use case -- classificaiton model 
+
+
+1- dataset ( attribute) -- busines property | dimension, feature, varible 
+2- dv 
+3- dv -- reg or classifiction 
+4- if it is classificaiton model 
+		logistic regression 
+		svm 
+		dtr
+		rf
+		xgboost 
+		lgbm
+		knn
+5- you got highest model accuracy 
+6- deployment 
+
+1 project we can build -- all ml model 
+we will get all model score -- accuracy -- high 
+
+== 
+linear regression model -- 
+6.5 employee level -- prediction -- 330 -- degree 1
+
+poly model 
+6.5 emply -- degree 2 - 189 
+6.5 emply - degree 3 - 133 
+6.5 emply - degree 4 - 158
+6.5 empl - degree 5 - 174.8 -- 
+6.5 employ - degree  174 
+
+overfittin & underfit when we split the data | hear we are not split the data 
+	
+
+1- we have dataset 
+2- emplo salary 
+3- one employe quite
+4- no physical hr then wanted to introduce agents
+5- model -
+			linear model -- 6.5 position -- 330 
+			polynomial model -- 6.5 - degree 5 - 174.8 
+			svr model -- 
+			knn model --
+			dt model 
+			random forest model -- 
+
+
+regression -- svr , knn regressor , dt regressor , rf regressor 
+classification - svm , knn classifier, dt classifier , rf classifier 
+
+==== 27th
+
+Real time how to implamenet all ml regression mode in one dataset. 
+we compare accuracy of all the models  
+
+we just build model for comparision  | I will explain math for algo once we finish this  
+---
+For employee database if i build ranking table -->
+---	
+Knn model == 190 ( neigbour = 4) 
+Poly model == 174.8 ( degree = 5)
+Svr model == 164 ( poly kernal, degree = 5) 
+Rfr model == 158
+Dtr model == 150 
+
+= we build reg model , compare all other model & we notices about all hyperparameter of all the models 
+
+CLASSIFICATION -- BINARY 
+take one algorit -- 80% 
+hyperparm ( evbery algoriytm -- same parameter) 
+
+performance measure of regression -- R2, adjusted r2, 0-1 
+performance measure of classification -- confusion matrix 
+
+CONFUSION MATRIX == matrix + confusion 
+
+confusion matrix will be built on (y_test vs y_pred )
+
+train the data and writ - x_train & y_train 
+pass x_test to generatre y_pred ( predicted data) 
+
+y_test (actual data) ||  y_pred ( predicted data)
+
+confusion matrix --> TP | TN | FP | FN 
+
+true +Ve ( TP)  
+false +Ve (FP) 
+true -ve ( TN)
+false -ve (FN)  
+
+	model accuracy -- tp + tn / (tp+tn+fp+fn) == (tn + tp / tn + tp + fn + fp)
+	error rate = (fp+fn) / (tp+tn+fp+fn) |  (fp - type 1 error & fn - type 2 error) 
+	precission = tp / predicted yes  == tp / tp + fp 
+	recall = tp /actual yes == tp /tp+fn
+	f1 score = 2 * (precision * recall)/ (precision+ recall)
+
+overfitting -- trian the model with more attribute 
+	technique to reduce overfit - pca | regualarization | ensamble learning | cross validataion | drop out the neurons
+	low bias high variance  | bias ---- trainin data 
+	bias == model.score(x_train, y_train) 
+	
+underfitting - train the model with less atribute 
+	technique to reduce underfit -- add more relavant attribute to the dataset
+	high bias low variance 
+	variacen - testing data 
+	variance = model.score(x_test,y_test)
+
+best fit -- train the model releavant attribute 
+	high bias high  variance ( bias - 90, variance - 90, ac - 90) 
+		low bias low varince 
+-----
+CLASSIFICATION ALGORITHM LIST -->
+-----
+Logistic regression 
+Knn classifier 
+Svm classifier 
+Naive bayes algorithm
+
+TREE BASED ALGORITHM
+	Decission tree 
+		Ensambel learning 
+					Bagging -- random foreste
+					Boosting -- xgboost, lgbm 
+
+historical data, how to pass future data ( validation ) to themode
+model prediction 
+when regression model prdicts -
+
+entire ml journey 2 algorithm which follow probabilith concept 
+	logistic regression 
+	naive bayes 
+	
+when we apply difference algo to same dataset accuracy will same or difference
+	why the reason math, parameter , algorithm on built set of rule, math concept 
+---
+LOGISTIC REGRESSION -->
+---
+very very powerfull algo in real world 
+logistic regression is come under classification or regression ? 
+
+ML -- Sigmoid curve ( use prob function to adjut the outler if the dataset has) it give best accuracy 
+Sigmoid activation function 
+why we called logistice regression is classifcaiton model -- classifcation model 
+
+==== 28th 
+
+lineare regression vs logistic regression 
+deeplearning-- ann , cnn, rnn -- sigmoid activation function 
+
+logistic regression aka -- logit or maxent classifier 
+
+test case :1 --> 25% testing phase, standardscal scaling -- ac -- 89%  
+test case:2 -->  20% testing phase, standard slcare -- ac -- 92.5% 
+test case:3 -->  20% testing phase, normalization -- ac - 72.5%
+test case:4 -->  can you cange random state 
+						random- state ==100 ( ac --  82.50)
+						random state = 51 (ac - 88.75)
+						random state = 41 (ac - 78.75)
+						random state = 21 (ac - 86.25)
+						random_state = 11(aC - 82.50) 
+						random_state = 0 ( ac - 92.50) 
+test case - 5: please retrain model hyperparemter tunning () -- you can try in home & hypererparameter table 
+
+1. ac -- 92.50 bias - 82.5, variance - 92. 50 ==>  best fit 
+2. ac - 92.50 bias - 34 variance - 90  ==> overfit 
+3. ac - 92.50 bias- 90 variance - 34 ==> underfit 
+4. ac - 34 bias - 90 variance- 89 ==> low acuracy model 
+
+== so far we understood what is logit, how to build model classifier isname of model 
+== logistic regression 
+
+what next ??  
+
+so far we build model on historical data -- we have dependent variabel 
+
+being ml model i wante to predicti future customer -- prediction 
+
+customer vehicle purchase 
+
+1st feb -- tata.com -- form has filled -- record in store in db 
+in db --future records will stored 
+behind the scent ml guy will predicton -- proba of this custoerm purchase the -- 1 or 0 
+
+=== 29th
+
+logistic logit or maxent classifier 
+		how to prdict validation data 
+		val data vs live data 
+		3 phase model testing will perform 
+		mean of it 
+		bunch of classiifcation model 
+		best accuracy model & best model testin & best avg score 
+		pickle 
+		deploly
+		
+company -- 1wesbite -- 
+		small code ml code -- we deopy part of website
+			book the flight -- probality of tickete confirmation 
+			
+datbase - 
+		compnay -- db is create 
+				i need te prev previous 
+	
+i will share the code ( after the class)
+
+	
+=== KNN ALGORITHM ( k nearest neighbour) 
+		
+1- distance matrix 
+		Euclidian distance  
+		manhatten distance 
+		
+knn -- how th edistance matrxi & nerest help to classify the data 
+
+knn classificaio -- based on k point we classify the new datapoint 
+knn regression -- based on k point we take mean of nearest neighbours 
+
+
+does outlier is impact to knn model -- yes | no  --- (yes ) 
+does outlier is impact to logistic regression -- (no)  cuz of sigmoid curve adjsute outlier 
+
+
+when i apply these 2 algo to 1 dataset ( accuracy will change) 
+when ever multi model 1 datraset 
+
+overfitting == techniqe 
+
+logistic -- sigmoied categr, sovler - 
+knn -- distance, ed, md outleri will impaact 
+
+binar class classiifcaiton 
+multiclass classificaton apply -- images, text
+
+same dataset 
+knn - 95%    
+logistic -- 92.50%  
+svm -- 
+
+==== 30th
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======
+LIST OF COMPLETED TOPICS -->
+=======
+1- Population , Sample --> 
+			samping technique & Inference technique 
+2- Descriptive stats -->
+			central tendency, skewness, kurtois, variance, standard deviation, covariance ( coralation) 
+3- inferential stats --> 
+			prob, distribution, confidence interval, ztest, ttest, ztable, ttable, zscore, p-value 
+4- advanced stats -->
+			hypothesis testing - H0 , H1 or Ha , accept null hypothe ( close mean) reject H0 (far mean)
+			mae, mse, rmse, graphical representation towards ml for regression line, y = mx + c | y^ = mx +C 
+			anova, ssr, sst, sse, r2, adsted r2, regression table 
+5- Frontend part -- stramlit, gradio
+6 - Data anlaysis library -- Numpy, Matplotlib, Pandas, Seaborn
+7- Eda technique -- variable idntification , univariate, bivarite, outlier , 
+									missing value treatment, imputation technique, transformer, variable creation 
+8- python -- basic python , advance -- loops, function , function, local, global 									
+
+9- ml -- data preprocessing pipelien, regression model we built 
+						simple lineare, multiple linear, l1, l2 
+						
+						
+		
+
 	
  
 
@@ -1488,64 +2515,12 @@ https://www.youtube.com/watch?v=JhfTZ1QWN6A&t=4561s
 		
 			
 
-		
-4- outlier treatment '
-5- missing variable treatment 
-6- variable imputation 
-7- variable createion 
-
-
-Variable identification -- completed 
-Univariate analysis -- plot the graph using 1 variable 
-Bivariate -- plot the grpah using 2 variable 
-
-
 
 
 
  
 
-			
 		
-		
-
-		
-		
-		
-
-
-
-
-
-
-	
-	
-	
-			
-
-
-
-
-		
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
 
 
 ----

@@ -63,7 +63,7 @@ https://learn.nareshit.com/users/sign_in
 
 ## Push changes to remote repository
 ```bash
-DATE='day-31-2026Jan8-statistics'
+DATE='day-45-2026Jan30-ml-smr'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 
@@ -80,22 +80,23 @@ rm tmp.rar
 cd ..
 
 git add .
-git commit -m "Updated ${DATE}"; git push; git status
+git commit -m "Updated ${DATE}"; git push origin develop; git status
 
-DATE='day-31-2026Jan8-statistics'
+DATE='day-46-2026Jan30-ml'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 touch ${DATE}/README.md
 touch ${DATE}/app.py
-cp tmp.ipynb ${DATE}/statistics.ipynb
 ```
 
 ```bash
 python3.12 -m venv .venv
+
 source .venv/bin/activate
 python3.12 -m pip install --upgrade pip
 
-python3.12 -m pip install streamlit
+python3.12 -m pip install streamlit scikit-learn
 
 python3.12 -m streamlit run app.py
 ```
+ 
