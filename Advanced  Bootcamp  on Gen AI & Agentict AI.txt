@@ -2445,8 +2445,51 @@ same dataset
 knn - 95%    
 logistic -- 92.50%  
 svm -- 
-
 ==== 30th
+smote -- synthetic minority oversamp tehcnique 
+	convert imbalanced data to balanced data 
+knn imbalnce data 
+
+==== SVM ( support vector machine) 
+
+hyperplane (svr ) vs best fit line(slr) 
+plot 2 parellen line based on neareest data point -- decission bounder or support vector
+hyperplance to decission -- +Ve & -ve distnace 
+
+distnce between 2 support vector line is called marginal distnace 
+marginal distance always maximum not minimum why ?
+
+naiave bayes model 
+tree CART -- CA - classification RT -- regression 
+
+
+
+Knn -- 95%  ( parameter ) 
+Svm - 95%  ( parameter)
+Logistic - 92.50 (hypererparameter) 
+-------
+NAIVE BAYES ( probabaility algorithm) 
+-----
+1- what is mean by naive in naive bayes - clear 
+2- what is conditional prob -- clear 
+3- what is bayes theorem or baysian theorm
+4- naive bayes algorithm 
+5- type of naiave bayes -- bernouli, gausian, multinomial 
+6- naive bayes real time use case 
+7- naive bayes practile 
+
+prob -- event 
+p(A) & p(B) both are not dependent to each other that  
+	2 independent events are called naive in naive bayes 
+	
+	p(a/b) = p(a ^ b) /p (b) 
+	p(b/a) = p(b^a) / p(a)
+
+
+3- bayes theorem or bayesian theorem 
+
+
+
 
 
 
