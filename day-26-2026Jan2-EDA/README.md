@@ -1,45 +1,49 @@
-# 🧹 Data Cleaning & EDA Techniques
+## 🧹 Data Cleaning & EDA Techniques: Study Notes
 
-This section covers string manipulation using Regular Expressions and the foundational approach to Missing Value Treatment.
+This section covers essential methods for refining raw data, specifically focusing on text cleaning with Regular Expressions (RegEx) and the logic behind handling missing data.
 
 ---
 
 ## 🔡 String Manipulation (RegEx)
-Using Regular Expressions to clean text data within a string:
+
+Regular Expressions (RegEx) allow you to identify and replace patterns in text data, which is crucial when cleaning messy "Object" columns in Pandas.
 
 * **Command:** `str.replace(r'\w', '')`
-* **Logic:** * `\w` targets **Word Characters** (Letters, Numbers, Underscores).
-    * **Non-word characters** include special symbols (like `@`, `#`, `!`) and spaces.
+* **Logic:** * `\w` represents **Word Characters**: This includes all alphanumeric characters (a-z, A-Z, 0-9) and the underscore (`_`).
+* **Opposite:** To target special characters (like `@`, `#`, `!`), you would use the uppercase `\W` (Non-word characters).
 
 ---
 
 ## 🛠️ EDA Technique: Missing Value Treatment
-Exploratory Data Analysis (EDA) begins with handling missing data (Imputation). We have completed one core technique:
+
+In Exploratory Data Analysis, "Imputation" is the process of filling in gaps where data was not recorded.
 
 ### 1. Numerical Values
-When a numerical data point is missing, it is treated using:
-* **Mean:** The average of the values.
-* **Median:** The middle value (often used when outliers are present).
-* **Mode:** The most frequent value.
 
+Numerical data (Integers/Floats) is handled using the "Center" of the data distribution:
 
+* **Mean:** The mathematical average. Best for data that is **Normally Distributed** (Symmetrical).
+* **Median:** The middle value. Best when the data has **Outliers**, as the median is not skewed by extreme values.
+* **Mode:** The most frequent number. Rarely used for numbers, but helpful for discrete counts.
 
 ### 2. Categorical Values
-When a label or category (text-based data) is missing:
-* **Mode:** The most frequent category is used to fill the gap.
 
+Categorical data (Strings/Labels) cannot be averaged.
 
-
----
-
-## 📊 Summary Table
-
-| Data Type | Treatment Technique |
-| :--- | :--- |
-| **Numerical** | Mean, Median, or Mode |
-| **Categorical** | Mode |
-| **String (RegEx)** | `\w` (Word) vs Non-word characters |
+* **Mode:** We identify the most frequently occurring category (e.g., if "Mumbai Indians" appears most often in an IPL dataset, we use it to fill missing team entries).
 
 ---
 
-Would you like me to provide the **Pandas code** to apply these Mean, Median, and Mode treatments to your dataset?
+## 📊 Summary Table: Imputation Strategy
+
+| Data Type | Primary Treatment | Secondary Treatment |
+| --- | --- | --- |
+| **Numerical** | **Mean** (Normal data) | **Median** (Skewed data/Outliers) |
+| **Categorical** | **Mode** (Most Frequent) | Constant value (e.g., "Unknown") |
+| **Text Cleaning** | **RegEx** (`\w`) | String slicing / stripping |
+
+---
+
+## 💡 Pro-Tip for Data Analysts
+
+Always check the **Skewness** of your data before choosing a treatment. If you use the **Mean** on data with heavy outliers (like salary data where one person earns millions), your "average" will be misleadingly high. In such cases, the **Median** provides a more truthful representation.

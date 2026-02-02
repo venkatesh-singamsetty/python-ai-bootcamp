@@ -1,141 +1,92 @@
-# Python Operators & Number System
+## Python Operators & Number Systems: Study Notes
 
-## 1. Operators in Python
-Operators are symbols used to perform operations on variables and values.
+### 🔢 1. Python Operators
 
----
+Operators allow you to manipulate data, perform calculations, and manage logic.
 
-## 2. Types of Operators
+#### **Arithmetic Operators (Math)**
 
-### 2.1 Arithmetic Operators
-Used for mathematical operations.
+* **Standard:** `+`, `-`, `*`, `/`
+* **Modulus (`%`):** Returns the **remainder** (e.g., `10 % 3 = 1`).
+* **Floor Division (`//`):** Divides and rounds **down** to the nearest whole number.
+* **Exponentiation (`**`):** Calculates power (e.g., `2 ** 3 = 8`).
 
-| Operator | Description | Example |
-|--------|------------|---------|
-| + | Addition | a + b |
-| - | Subtraction | a - b |
-| * | Multiplication | a * b |
-| / | Division | a / b |
-| % | Modulus | a % b |
-| // | Floor Division | a // b |
-| ** | Power | a ** b |
+#### **Relational & Logical Operators (Conditions)**
 
----
+* **Relational:** `==`, `!=`, `>`, `<`, `>=`, `<=` (Always returns a Boolean).
+* **Logical:**
+* `and`: True only if **both** sides are True.
+* `or`: True if at least **one** side is True.
+* `not`: Inverts the logic (True becomes False).
 
-### 2.2 Relational (Comparison) Operators
-Used to compare two values. Always returns True or False.
 
-| Operator | Meaning |
-|--------|--------|
-| == | Equal to |
-| != | Not equal |
-| > | Greater than |
-| < | Less than |
-| >= | Greater than or equal |
-| <= | Less than or equal |
 
-Example:
-```python
-a = 10
-b = 20
-print(a > b)  # False
-```
+#### **Assignment & Swapping**
+
+* **Short-hand:** `a += 5` is equivalent to `a = a + 5`.
+* **Pythonic Swap:** You can swap values without a temporary variable:
+`a, b = b, a`
 
 ---
 
-### 2.3 Logical Operators
-Used to combine conditions.
+### 🖥️ 2. Bitwise Operators
 
-| Operator | Description |
-|--------|-------------|
-| and | True if both conditions are True |
-| or | True if any condition is True |
-| not | Reverses the result |
+These operate at the binary level (0s and 1s).
 
-Example:
-```python
-a = 10
-b = 20
-print(a > 5 and b > 15)  # True
-```
+| Operator | Description | Calculation Logic |
+| --- | --- | --- |
+| **`&` (AND)** | Binary AND | 1 if both bits are 1 |
+| **` | ` (OR)** | Binary OR |
+| **`^` (XOR)** | Binary XOR | 1 if bits are different |
+| **`~`** | Complement | Inverts all bits |
+| **`<<`** | Left Shift | Multiply by  |
+| **`>>`** | Right Shift | Floor divide by  |
 
 ---
 
-### 2.4 Assignment Operators
+### 🔢 3. Python Number Systems
 
-| Operator | Example |
-|--------|---------|
-| = | a = 10 |
-| += | a += 5 |
-| -= | a -= 5 |
-| *= | a *= 5 |
-| /= | a /= 5 |
+Python supports four bases for representing integers. You can identify them by their specific prefixes.
 
----
+| System | Base | Prefix | Example |
+| --- | --- | --- | --- |
+| **Binary** | 2 | `0b` | `0b1010` (Decimal 10) |
+| **Octal** | 8 | `0o` | `0o12` (Decimal 10) |
+| **Decimal** | 10 | *None* | `10` |
+| **Hexadecimal** | 16 | `0x` | `0xA` (Decimal 10) |
 
-### 2.5 Swap Variables
-```python
-a = 10
-b = 20
-a, b = b, a
-print(a, b)
-```
+> **Note:** Regardless of the input format (Binary, Octal, or Hex), if you `print()` the variable, Python displays it in **Decimal** by default.
 
----
-
-## 3. Bitwise Operators
-Operate on binary numbers.
-
-| Operator | Name |
-|--------|------|
-| ~ | Complement |
-| & | AND |
-| \| | OR |
-| ^ | XOR |
-| << | Left Shift - x * (2^n)|
-| >> | Right Shift - x // (2^n)|
-
-Example:
-```python
-a = 5
-b = 3
-print(a & b)
-print(a | b)
-```
-
----
-
-## 4. Number System in Python
-
-  | Number System   | Base   | Prefix        | Example      |
-  | --------------- | ------ | ------------- | ------------ |
-  | Binary          | 2      | `0b`          | `0b1010` |
-  | Octal           | 8      | `0o`          | `0o17` |
-  | Decimal         | 10     | *no prefix*   | `100` |
-  | Hexadecimal     | 16     | `0x`          | `0xabcdef` |
-
-### 4.1 Decimal (Base 10)
+### 3.1 Decimal (Base 10)
 ```python
 a = 10
 ```
 
-### 4.2 Binary (Base 2)
+### 3.2 Binary (Base 2)
 Prefix: 0b
 ```python
 a = 0b1010
 print(a)
 ```
 
-### 4.3 Octal (Base 8)
+### 3.3 Octal (Base 8)
 Prefix: 0o
 ```python
 a = 0o12
 print(a)
 ```
 
-### 4.4 Hexadecimal (Base 16)
+### 3.4 Hexadecimal (Base 16)
 Prefix: 0x
 ```python
 a = 0xA
 print(a)
 ```
+
+---
+
+### 💡 Key Takeaway
+
+Bitwise operations and different number systems are essential for low-level data processing, cryptography, and optimizing performance in complex Machine Learning algorithms.
+
+Would you like me to show you how to use Python's built-in functions like `bin()`, `oct()`, and `hex()` to convert between these systems?
