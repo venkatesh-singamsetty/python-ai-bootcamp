@@ -82,7 +82,7 @@ cd ..
 git add .
 git commit -m "Updated ${DATE}"; git push origin develop; git status
 
-DATE='day-46-2026Jan30-ml'
+DATE='day-46-2026Feb2-ml-naive-bayes'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 touch ${DATE}/README.md
