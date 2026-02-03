@@ -2485,10 +2485,56 @@ p(A) & p(B) both are not dependent to each other that
 	p(a/b) = p(a ^ b) /p (b) 
 	p(b/a) = p(b^a) / p(a)
 
-
 3- bayes theorem or bayesian theorem 
 
+=== 2nd 
+conditional prob == p(a^b) / P(b) 
+bayes theorem  - prior, poster, liklihood, marginal liklihood
 
+3 type of naive bayes 
+
+bernouli naive bayes - 20% test - 72.5 ( without scale) 
+					with standarnd scaler -- 20% tes - 82.5
+					with normalizer = 72.50
+						 bernould naive bayes behave we ll interm of standad scaler accuracy
+				
+gausian naive bayes - 
+		without scaleing -- 92.50% | with scaling standard scaler - 91.2 
+			with scaling -- less accuracy
+== 
+multinomial navie bayes
+naiver bayes -- Gausian naive bayes never required feature scaling  
+=== 
+
+where are we using NB in day to day life ( why bayes  theorem is very important) 
+
+kaggle is repositorary where dataset & answer you will get 
+uci -- anohter data reposirty only dataset no question 
+
+ml model -- mulitclass classification ( more then 2 class)
+
+=== CART ( CA - Classification  & RT - regression ) 
+
+Decission tree 
+Ensabmle learning 
+		bagging  -- random forest 
+		boosting --
+					adaboost -- not required ( outdataed) 
+					catboost - not required 
+					gradient boost  --- 
+					xgboost - xtream gradient boosting 
+					lgbm -- light gradient boostign  -- 
+							LGBM is 6 times faster then xgboost 
+							
+		voting or stacking 
+				based on maximum votes they will declare winner 
+	
+==== 3rd
+
+
+
+
+		
 
 
 
