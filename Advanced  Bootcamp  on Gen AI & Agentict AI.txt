@@ -2531,6 +2531,65 @@ Ensabmle learning
 	
 ==== 3rd
 
+decission tree -- how tree can make decission 
+
+ml journey -- we work with dataset is labels -- supervise learning ( ml journey) 
+
+how to build tree from the dataset ?
+tree algoriyt how to make root node ? 
+---
+steps to create tree from the dataset -->
+---
+1- Understad attribute of the dataset 
+2- Right dependent vbariable & independent variable 
+
+3- INFORMATION GAIN for dependent variable 
+
+4- GAIN of independent variable 
+		ENTROPY(AGE) = Information gain of each class * probabiliyt of the class 
+		GAIN(AGE) = IG(profit) - E(age) 
+				
+		GAIN(COMPITION) = IG (profit) - E(compition) 
+		GAIN(TYPE) = IG(profit) - E(Type) 
+		
+5- root node is always independent variable root node never be dependent variable 
+
+6- leaf node -- when to declare leaf node -- any one side become 0 go 
+
+7- once declare as leaf then tree wonts grows any more 
+
+8- when tree build indepth then overfitting problem comes up 
+			when feature are more then only tree will build indepth 
+			
+9- prunning -- will reduce overfitting 
+
+10- gini index -- 
+
+11- entropy code -- log calculation ( log calclat ( is little slow ) 
+			log we intrdoce gini index 
+
+12- tree algo doesnot required feature scaling 	
+
+=== any organization 
+
+DATASET -->
+	LOGISTIC -- 92.5 bias 
+	KNN - 95 bias 
+	SVM - 95 bias 
+	GAUSIAN NV - 91.25 bias  
+	DT -- 95 bias 
+	
+model ranking table before serilization ( picke binary file) 
+
+auc & roc curve -- this is the graph for confusion matrix 
+
+xaxis -- fpr ( false positive rate) 
+yaxis - tpr (true positive rate) 
+
+=== 4th 
+
+
+
 
 
 
