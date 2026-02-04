@@ -86,7 +86,7 @@ touch ${DATE}/README.md
 touch ${DATE}/app.py
 
 git add .
-git commit -m "Updated ${DATE}"; git push origin develop; git status
+git commit -am "Updated ${DATE}"; git push origin develop; git status
 ```
 
 ```bash
