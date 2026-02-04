@@ -63,7 +63,7 @@ https://learn.nareshit.com/users/sign_in
 
 ## Push changes to remote repository
 ```bash
-DATE='day-45-2026Jan30-ml-smr'
+DATE='day-48-2026Feb4-ml-ensamble-learning'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 
@@ -79,14 +79,14 @@ tar -xf tmp.rar
 rm tmp.rar
 cd ..
 
-git add .
-git commit -m "Updated ${DATE}"; git push origin develop; git status
-
-DATE='day-46-2026Feb2-ml-naive-bayes'
+DATE='day-48-2026Feb4-ml-xgboost'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 touch ${DATE}/README.md
 touch ${DATE}/app.py
+
+git add .
+git commit -m "Updated ${DATE}"; git push origin develop; git status
 ```
 
 ```bash

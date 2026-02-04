@@ -2588,15 +2588,99 @@ yaxis - tpr (true positive rate)
 
 === 4th 
 
+ENSAMBLE LEARNING
+	Bagging  -- bag the records from original dataset 
+		random forest algorithm 
+					we pull the random records from original dataset -- forest 
+	Boosting 
+			xgboost (xtream gradient boosting) 
+			lgbm (light gradient boosting) 
+			
+			
+technique to reduce overfitting 
+	pca -- in cluster later 
+	regularization  -- underst 
+	cross validation -- today 
+	ensamble learning -- today 
+	dropout the neuron -- ann 
+---
+model ranking table 
+---
+1- Random forest -- 96.25 
+2- svm - 95
+3- knn -- 95
+4- dt - 95
+3- gausian nb -- 91.25
+4- logistic - 92.50
 
+ranodm forest serialization 
 
+baggin we are completed 
 
+BOOSTING -->
+	xgboost 
+	lgbm 
+	cross validation 
+	grid search cv
+	random search cv 
+		
+boosting -- 
 
+decission tree build the tree indepth
+ensamble boosting -- we build the tree sequential 
+		xgboost - xtream gradient boost 
+		lgbm -- light gradient boost 
 
+ml frameworkd -- sklearn - worked severral project 
+								xgboost -- 
+								lgbm 
+								
+								
+project -- customer churn prediction 
+				churn -- exit 
+				customer churn prediction 
+ML CONCEPT, ALGO EVER SAME 	-- DATASET IS DOMAIN 
+
+xgboost 
+lgbm 
+cross validation 
+
+trained model -- user is train the data when data is limite, user write algoriytm -- trained model 
+1l image to model -- system is limited that is why are pretrained model -- transformer  
+---
+If i give you data -- ml model dpeloy, predict, 
+---
+pyhton devel 
+data analysi
+ml developer
+datascience 
+---
+ai enggine 
+nlp enginer
+dl enling
+computer vision enginenr 
+----
+gen ai develop err
+llm devleop err 
+promt
+== agentic ai developer 
+AI governace -- theory 
+--- data base secury --
+== db to cloud inter
+money talks in compnay 
+db -- cloud 
+
+===  5th 
+
+		
+		
 		
 
 
 
+			
+
+							
 
 
 
