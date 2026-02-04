@@ -79,7 +79,7 @@ tar -xf tmp.rar
 rm tmp.rar
 cd ..
 
-DATE='day-48-2026Feb4-ml-xgboost'
+DATE='day-49-2026Feb4-ml-xgboost'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 touch ${DATE}/README.md
