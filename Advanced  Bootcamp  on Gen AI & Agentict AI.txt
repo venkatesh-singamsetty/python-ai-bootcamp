@@ -2671,7 +2671,64 @@ money talks in compnay
 db -- cloud 
 
 ===  5th 
+Dataset -- random forest 
+	we build several 
+you need to pass validation data to the model which 96% 
+historical data -- what decission 
 
+all ml model we been worked in sklearn framework 
+lgbm ( light gbm) -- light gradient boosting model) 
+
+
+slr -- best fit line ( loss, mae, mse, rmse ) 
+mlr -- eqstion ( backwards elimination ) rfe base p-value 
+poly -- increate when non linear ( linear model ) 
+svm , svr -- hyperplace, db, svr, max , linea, kernal 
+knn -- imbalance data, distance, euc, manhate 
+naive baye -- naive, cond, bay, prior, 
+dt -- gain, ig, entropy, max depth, purity, impurit 
+rf -- n_estimation + dt 
+xgboost -- gradient boosting train time ( kaggle complete ) organizat we never ever apply 
+lgbm -- light bosting gpu processing 
+
+corealation, mae, mse, rmse, cm, over, under, bias, vareianc, smote
+tp, tn, fp, fn, f1s core, pr, l1, l2, penalty 
+
+if you are not listend the class or you havent working i am sure these projects are getting tougher 
+	mentor ask them -- recording 
+for me course is 4-5 months i will finishe every thing 
+
+1yr it will take -- the more listeen recordin -- more knowledge 
+
+5-6yr experience -- 
+	ml, gen ai, agenti ai 
+
+==== cross validation 
+when the models are overfitting then we wil use cross validation 
+		k fold cv 
+		
+model tunning 
+	grid search cv
+	random search cv 
+	
+==== 	6th
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+					
 		
 		
 		
