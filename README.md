@@ -63,7 +63,7 @@ https://learn.nareshit.com/users/sign_in
 
 ## Push changes to remote repository
 ```bash
-DATE='day-48-2026Feb4-ml-ensamble-learning'
+DATE='day-49-2026Feb5-ml-xgboost'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 
@@ -79,7 +79,7 @@ tar -xf tmp.rar
 rm tmp.rar
 cd ..
 
-DATE='day-49-2026Feb4-ml-xgboost'
+DATE='day-51-2026Feb6-ml'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 touch ${DATE}/README.md
@@ -95,6 +95,7 @@ python3.12 -m venv .venv
 source .venv/bin/activate
 python3.12 -m pip install --upgrade pip
 
+python3.12 -m pip install pandas numpy matplotlib
 python3.12 -m pip install streamlit scikit-learn
 
 python3.12 -m streamlit run app.py

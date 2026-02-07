@@ -1,4 +1,4 @@
-Here are the structured study notes based on your class details. This summary organizes the machine learning algorithms, evaluation metrics, and model optimization techniques discussed.
+Refer https://www.kaggle.com/code/prashant111/lightgbm-classifier-in-python
 
 ---
 
