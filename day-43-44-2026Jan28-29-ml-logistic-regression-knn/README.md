@@ -1,3 +1,13 @@
+## 🚀 Quick Start Guide (Using Root VENV)
+
+```bash
+# Ensure you are in the project folder and root .venv is active
+python logistic_classification_knn_model.py
+python -m streamlit run streamlit_knn.py
+```
+
+---
+
 ## 🚗 Customer Vehicle Purchase Prediction: Implementation Notes
 
 This guide consolidates the key learnings from the classification workshop, focusing on Logistic Regression, KNN, and the practicalities of model deployment.

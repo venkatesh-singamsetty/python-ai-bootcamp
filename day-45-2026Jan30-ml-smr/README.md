@@ -1,3 +1,13 @@
+## 🚀 Quick Start Guide (Using Root VENV)
+
+```bash
+# Ensure you are in the project folder and root .venv is active
+python svm_classification_model.py
+python -m streamlit run streamlit_svm.py
+```
+
+---
+
 ## 🛡️ Advanced Classification & Optimization: Study Notes
 
 This section focuses on the techniques used to handle complex data distributions, maximize class separation, and utilize probabilistic frameworks for prediction.

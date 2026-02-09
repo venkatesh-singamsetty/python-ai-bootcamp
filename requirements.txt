@@ -1,0 +1,20 @@
+# --- Foundation (Data Manipulation & Visualization) ---
+numpy        # Array computing and mathematical operations
+matplotlib   # Basic plotting and data visualization
+pandas       # Data structures and data analysis (DataFrames)
+seaborn      # Statistical data visualization (built on Matplotlib)
+
+# --- Web Application Framework ---
+streamlit    # Interactive web apps for ML models
+
+# --- Machine Learning & Statistics ---
+scikit-learn # Core library for ML (Classification, Regression, Clustering)
+statsmodels  # Statistical modeling and testing (e.g., OLS)
+joblib       # Model persistence (Saving/Loading models)
+
+# --- Advanced ML & Specialized Analytics ---
+xgboost      # Extreme Gradient Boosting (High-performance ML)
+scipy        # Scientific computing (Statistics & Clustering Dendrograms)
+
+# --- NLP ---
+nltk         # Natural Language Toolkit

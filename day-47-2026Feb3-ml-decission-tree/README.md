@@ -1,3 +1,13 @@
+## 🚀 Quick Start Guide (Using Root VENV)
+
+```bash
+# Ensure you are in the project folder and root .venv is active
+python decision_tree_classification_model.py
+python -m streamlit run streamlit_decision_tree.py
+```
+
+---
+
 ## 1. The ML Journey: Supervised Learning
 
 In this journey, we work with **labeled datasets**. This falls under **Supervised Learning**, where the model learns the relationship between independent variables (features) and a target dependent variable (label).

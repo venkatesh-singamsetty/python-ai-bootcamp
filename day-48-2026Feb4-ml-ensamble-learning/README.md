@@ -1,3 +1,13 @@
+## 🚀 Quick Start Guide (Using Root VENV)
+
+```bash
+# Ensure you are in the project folder and root .venv is active
+python random_forest_classification_model.py
+python -m streamlit run streamlit_random_forest.py
+```
+
+---
+
 Here are your organized study notes based on the session. I've structured these to highlight the relationships between the algorithms and the techniques used to improve model performance.
 
 ---

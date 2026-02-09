@@ -1,26 +1,4 @@
-## 🧠 Machine Learning: Regression & Classification Comprehensive Guide
-
-This guide provides a structured look at comparing regression models, evaluating classification performance, and understanding the trade-offs in model fitting.
-
----
-
-## 1. Regression Model Comparison
-
-In real-world implementation, we run multiple algorithms on the same dataset to compare performance based on specific hyperparameters.
-
-### Model Ranking Table (Example: Employee Database)
-
-| Model | Configuration | Score/Error |
-| --- | --- | --- |
-| **KNN Regressor** | neighbors = 4 | 190.0 |
-| **Polynomial Regression** | degree = 5 | 174.8 |
-| **SVR** | kernel = 'poly', degree = 5 | 164.0 |
-| **Random Forest (RFR)** | default | 158.0 |
-| **Decision Tree (DTR)** | default | 150.0 |
-
----
-
-## 2. Classification Fundamentals
+## 1. Classification Fundamentals
 
 ### The Confusion Matrix
 
@@ -45,7 +23,7 @@ The confusion matrix is calculated by comparing **Actual Data ()** against **Pre
 
 ---
 
-## 3. Fit Analysis (Bias vs. Variance)
+## 2. Fit Analysis (Bias vs. Variance)
 
 | Metric | Underfitting | Overfitting | Best Fit |
 | --- | --- | --- | --- |
@@ -56,7 +34,7 @@ The confusion matrix is calculated by comparing **Actual Data ()** against **Pre
 
 ---
 
-## 4. Algorithm Roadmap
+## 3. Algorithm Roadmap
 
 ### Classification Algorithms
 
@@ -74,7 +52,7 @@ The confusion matrix is calculated by comparing **Actual Data ()** against **Pre
 
 ---
 
-## 5. Implementation Insights
+## 4. Implementation Insights
 
 * **Probability Concept:** Two main algorithms follow core probability principles: **Logistic Regression** and **Naive Bayes**.
 * **The Sigmoid Curve:** In Logistic Regression, the Sigmoid function maps any real-valued number into a value between 0 and 1:

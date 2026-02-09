@@ -1,5 +1,13 @@
 Refer https://www.kaggle.com/code/prashant111/lightgbm-classifier-in-python
 
+## 🚀 Quick Start Guide (Using Root VENV)
+
+```bash
+# Ensure you are in the project folder and root .venv is active
+python xgboost_classification_model.py
+python -m streamlit run streamlit_churn_prediction.py
+```
+
 ---
 
 ## 🏗️ Machine Learning Algorithms (Scikit-Learn Framework)

@@ -1,3 +1,13 @@
+## 🚀 Quick Start Guide (Using Root VENV)
+
+```bash
+# Ensure you are in the project folder and root .venv is active
+python naive_bayes_classification_model.py
+python -m streamlit run streamlit_naive_bayes.py
+```
+
+---
+
 https://archive.ics.uci.edu/dataset/2/adult
 
 Here are your notes formatted in Markdown based strictly on the content provided.

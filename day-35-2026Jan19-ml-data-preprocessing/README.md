@@ -1,3 +1,12 @@
+## 🚀 Quick Start Guide (Using Root VENV)
+
+```bash
+# Ensure you are in the project folder and root .venv is active
+python data_pre_processing.py
+```
+
+---
+
 ## 🧠 Machine Learning & AI Learning: Comprehensive Notes
 
 This guide consolidates the essential building blocks for mastering the journey from raw data to **Agentic AI**.

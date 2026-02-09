@@ -31,7 +31,7 @@
    - Verify installation:
 
    ```bash
-   python3 --version
+   python --version
    ```
 
 5. **Create and Run a Jupyter Notebook (`.ipynb`) in VS Code**  

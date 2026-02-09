@@ -89,15 +89,11 @@ git add .
 git commit -am "Updated ${DATE}"; git push origin develop; git status
 ```
 
+# 🛠️ Centralized Environment Setup (Recommended)
+# Run these from the repository root to avoid reinstalling packages for every folder
 ```bash
 python3.12 -m venv .venv
-
 source .venv/bin/activate
-python3.12 -m pip install --upgrade pip
-
-python3.12 -m pip install pandas numpy matplotlib
-python3.12 -m pip install streamlit scikit-learn
-
-python3.12 -m streamlit run app.py
+pip install --upgrade pip
+pip install -r requirements.txt
 ```
- 
