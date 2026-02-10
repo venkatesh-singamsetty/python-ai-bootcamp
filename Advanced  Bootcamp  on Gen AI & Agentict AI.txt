@@ -2712,6 +2712,217 @@ model tunning
 	random search cv 
 	
 ==== 	6th
+overfitting -- cross validation is one of the technique to reduce overfitting problem  
+how ensaamble leanring reduce cross validaton -
+
+1time split happend -- ac , bias, var 
+same data split hapend multiple time -- high variance -- low variance 
+ best fit 
+ 
+if model doesnot overfit then please do not use CROSS VALIDATON 
+
+what is hyperparameter tunning in machine learning --
+	Gridsearch cv 
+	Randomsearch cv 
+
+ml model tunning -- ml model parameter using gridsearch cv & random search cv 
+		
+	
+	grid search & random search is not any concept
+	library whihc help ml model to tune 
+	llm model tune 
+
+gridsearch cv & random search cv -- u can apply to all ml model not only you can tune to all ml model 
+
+machine learning -- regression & classification we are completed 
+understand 20days -- by just listen list -- code -- review -- thing -- result 
+
+raw - dat a clen -- clean -- attribute understing 
+-- x, y - eda- stats - scaling - xtrain , xtest, ytrain, ytest 
+ml modle on x-train ytrain - pass the xtest to the mode y_pred 
+y_test vs y_pred -- cm - ac 
+	overfit -- cv technqie 
+	
+model on historiec adata 
+
+we pass future data to the model prediction -- ml modest testing 1 - 1st level 
+2 -3 level -- 3 testing -- 80% 
+then -- piclt to wesbit ( ml prediction) 
+mlops-- cicd pipeline 
+
+we build model son specific data 
+edata will increate -- retrin the mode -- model v1. | model upgration 
+every cicd to creat pipeline 
+
+=== CLUSTERING (unsupervised learning) 
+
+regression -- dv is continuous 
+classiicaiton -- dv is binary 
+clustering -- data is discreate 
+no depednet variable 
+
+clustering algorithm 
+	kmeans
+	hirearchical clustering 
+	dbscan 
+	pca 
+	
+kmeans clustering 
+k -- euclidian distance 
+
+from the dataset how many cluster we will make  based on elbow method  
+using elbow method we will decide how many cluster we can choose 
+
+elbow graph -- x axis - no of cluster 
+yaxix -- wcss ( within cluster sum of square) 
+
+Customer segmention project 
+		kmeans
+		hiareachical 
+		
+ml developer job 
+fsds jobs 
+python developer
+data anlaysis 
+
+====   7th 
+
+when somebody ask you about kmeans 
+
+empirical probabiliyt distribution -- kmeans++ 
+greedy k-means++ -- theory 
+lloyd, elkan -- algorithm 
+
+can you please try to create this type of use case
+
+we build model 
+y_kmean | pickle it 
+regression - continus, classification - binary, clustering -- no dependent variable 
+
+===HIERARCHICAL CLUSTERING 
+
+  Agglomerative clustering  -- we build the cluster from bottom to top apporach 
+  Divisive clustering -- divide the clustering top to bottom approach 
+  
+== 9th
+DBSCAN cluster (density based spetical cluster application with noise) 
+How to detect outlier -- graph, box plot , dbscan 
+to detec outlier -- dbscan is one of the concept. 
+
+pca -- principal componenet analysis 
+
+pca -- reduce overfitting  
+			build cluster 
+			
+dimension reduction techniques -- pca 
+dimension increase technique -- svm 
+		non linear svm -- linear svm 
+	
+structure data -- traning, model predctin -- real data -- testing -- deploy
+
+
+---
+AI --> text, image, video ,audio 
+---
+ml & ai user must have to train the data user need to feed the data 
+
+human intelligence -- god 
+
+HI plug in machine using help of some framework nltk, spacy, tf, keras, opencv, yolo, lstm 
+		machine will mimic like human AI 
+
+ML -- numeric dataset 
+NLP -- mostle deal with text data 
+
+kid brain was empty -- 
+		brain train by his paretn  brain leared from text 
+	everyday keep getting trained 
+
+letters 
+words -- collection of letter 
+sentecen -- collection of words 
+para -- collection of sentecen 
+doc -- collection of para 
+article -- collection of doc 
+			
+kids train  =-- local lange | english language 
+
+	same concept we will teach text data we will feed 
+	
+	
+NLP -- NLU & NLG 
+
+	Natural language understanding
+	Natrual language generation 
+	NLP is foundation for LLM 
+	
+
+ML framework - how you machine understadna, algorithm -- sklearn, xgboost, lgbm 
+
+AI -->
+		NLP framwork -- NLTK, SPACY 
+			
+
+individual word is called token 
+my name is prakash senapati | sentece == collection of tokens 
+
+
+word_tokenize
+sent_tokenize 
+blankline_tokenzie 
+whitespace_tokenize 
+
+=== 10th 
+
+tokens -- words (text)
+
+word_tokenize - words 
+sent_tokenize - sentence 
+wordpunct_tokenize == when you have some numerb in the text use this 
+whitespace tokenize == remove the .,
+blankline_tokenize== para 
+---
+TYPES OF TOKENS -->
+---
+	BIGRAM - token with 2 words 
+	TRIGRAM -- token with 3 words 
+	NGRAM -- token with >3 words 
+	
+
+NLU -- TOKENS 
+
+stemming -- stem the word ( root word ) vs lematization -- complete word 	
+
+helping --
+			stem - help & lematization - helping 
+			
+stopwords -- are words les meaning in businexx better to remove them we can
+
+NLU -- tokenization, type of tokens, stemming, lemmatization, ner, pos, stopwords 
+NLG - natural laguage generation 
+
+=== 11th 
+
+
+
+
+
+
+
+		
+
+
+
+
+
+	
+
+
+
+
+
+
+	
 
 
 
@@ -2750,27 +2961,6 @@ model tunning
 	
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 =======
 LIST OF COMPLETED TOPICS -->
 =======
@@ -2791,7 +2981,15 @@ LIST OF COMPLETED TOPICS -->
 8- python -- basic python , advance -- loops, function , function, local, global 									
 
 9- ml -- data preprocessing pipelien, regression model we built 
-						simple lineare, multiple linear, l1, l2 
+				Regression model -- completed 
+				Classificaiton model -- completed 
+				Clustering modle -- completed 
+				
+10 -- AI 
+
+
+		
+			
 						
 						
 		
