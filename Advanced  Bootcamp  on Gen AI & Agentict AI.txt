@@ -2903,13 +2903,83 @@ NLG - natural laguage generation
 
 === 11th 
 
+NLP ALGORITHM | WORD EMBEDDING 
+---
 
+1- BOW (Bag of word)
+2- TFIDF ( Term frequency * Inverse document frequency) 
 
+project -->
+--
+1- Customer rule based chatbot 
+2- Sentiment anlaysis | customer feedback analysis
+3- multilanguage translation practicle 
 
+=== spacy 
 
+onehotencoder vs embedding 
+	both will convert to 0 or 1 
+	
+just dummy & onehote conder covert 0 or 1 
+embedding 0,1,2, based on number to tokens -- 10 
 
+bow -- bag of words
 
+all token will convert to number 
+from sklearn.featureextraction import countvectorizer 
+bow -- what it does we have text -- number 
 		
+new concept called tfidf 
+
+BOW -- it will convert all the tokens to 0, 1, 2 -- 
+in bow we saw that value are getting1 repeat might be there is problect 
+lets introduce new technique called TFIDF === Term frequency * Inverse document frequency 
+
+Embedding -- text will convert to number or vector 
+
+BOW -- we completed ( from skleanr.feature extrain imprt countevectorize ) 
+
+TFIDF -- TF * IDF 
+
+TF = No. of Rep of words in sentence / No of words in sentence
+IDF == LOG (no of sentecen / No of sentence containing words)  
+
+how to convert text data embedding to number 
+
+		write now we have x -- independnt vairbal e-14
+		i have y 
+		
+		can i build ml model 
+
+project -- customer feedback anlaysis 
+ml model on top of text 
+			
+excel shweet -- every model score >80% 
+ml model on text -=- hard to get 80% 
+
+
+as we r&d poc --- live -- 
+
+1000 review -- 85% 
+			classiifcation --80% 
+
+same data duplication -- 
+
+
+when cost factor is finazied then only buesiness will come 
+agreemne will happend then only 
+developer you act like devlope r&d
+-- technique to launch every learning 
+capacity planning -- client -- leade -- user -- 
+
+alternative project for customer feedback anlays -- alternative title for it 
+capstone project -- banking, fina, heath, insure 
+
+=== 12th
+
+
+
+
 
 
 
