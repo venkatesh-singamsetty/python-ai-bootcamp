@@ -79,10 +79,11 @@ tar -xf tmp.rar
 rm tmp.rar
 cd ..
 
-DATE='day-54-2026Feb11-ai'
+DATE='day-56-2026Feb13-ai'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 touch ${DATE}/README.md
+touch ${DATE}/app.py
 cp tmp.ipynb ${DATE}/tmp.ipynb
 
 git add .
