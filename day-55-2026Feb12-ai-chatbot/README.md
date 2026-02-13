@@ -1,4 +1,4 @@
-https://spacy.io/models
+- https://spacy.io/models
 
 ```bash
 python3.12 -m venv .venv
