@@ -2977,6 +2977,166 @@ capstone project -- banking, fina, heath, insure
 
 === 12th
 
+food is not tastry == if i use stopwords ( food tasty) 
+to build the nlp model with stop words -- check saidesh
+1000 sentence -- not all 100 sentecen same 
+
+project --
+1- rule based chatbot using nltk library 
+2- text summarization using spacy 
+3- multi language transtation 
+
+====
+ml project -- user train historica data, wirte algo, prediction, test, deoy, 
+vs 
+ai project -- user train text data ( business pep) train the data can th outside 
+vs 
+genai project -- user just write prompt, opne aip a-- data from internet 
+vs 
+agentic ai - virtual agent + API + LLM + TOOL 
+
+=== spacy another framework to build nlp task 
+
+2nd project -- text summarization using spacy 
+=== Can you please summarize top scoring sentence from the article ? 
+
+en_core_web_sm -- english from web small module ( para graph use this module)
+en_core_web_md -- use when the para is medim
+en_core_web_lg -- large 
+
+fr_core_web_sm 
+fr_core_web_md 
+
+1- token frequency 
+2- weighted frequencey -- individ token frequence score / max frequencey score 
+3- sentence === collection of tokens ( combine all the tokens socre -- sentence score) 
+4- 30% of score 
+5- ascent -- top scorint sentence from the para 
+===
+
+pargraph scoreing
+
+article scoring
+
+document scoring 
+
+If I bunch of document -- spacy wil not predict well 
+
+these are draws back ai hase thats why GENERATIVE AI INTROUCE IN THE MARKET 
+
+TEXT DATA -- llm 
+
+	GEN AI has 2 part 
+			text based model --  text to text 
+			multi model -- text to image, video, audio, sppech  
+					multi model is called SOTA -- state of the art model 
+							Cloud COGNITIVE AI 
+							
+AI librar cant handel large text data 
+
+=== 13th
+Agenda today session -->
+
+1- Projects kagge repo for nlp 
+2- Deep Learning & Neural network
+gtts -- google text to speech 
+https://pypi.org/project/pyttsx3/
+
+===  16th 
+
+data -- image, video 
+
+deep learning -- collection neural network 
+	ANN ( Artificial neural network) 
+	CNN (convolution neural network)
+	RNN (Recurrant neural network) 
+	
+HUMAN NEURAL NETWORK vs ARITIFICIAL NEURALA NETWORK 
+---
+small example >
+---
+
+single layer neural network -- 1input layer | 1hidden layer | 1output alyer 
+multi layer neural network -- 1 input | >1 hidden layer | 1 outpert layer 
+input layer
+hidden layer 
+output layer 
+signal pass == synapse 
+neurons 
+neural network
+activation of neuron 
+weights 
+forward propagation
+back propage 
+new weight 
+old weights
+activation function 
+
+
+NEURAL NETWORK ARCHITECTURE --- 
+		ANN, CNN, RNN 
+		
+forward propagation + backward propagation == 1 iteration ( 1epoch) 
+
+1 iteration -- 0 % 
+2nd eopc -- 70% 
+
+when you do number epoc loss will reduce and accuracy will increae 
+weights are adjusted -- accuracy will increate epoc 
+
+optimizer -- 
+		adam , adagrad, adadelta, adamax, sgd, bgd, rmsprop 
+
+loss -->
+ regressio loss -- mae, mse, rmse 
+ classification loss -- binary cross entropy , category cross entropy, sparse category cross entropy
+
+forward propga -- accuracy will assigne 
+back propa-- weight are adjust ( finetune of weights)  
+ 
+hidden layer & output layer -- activation function 
+
+Deep learning activation function 
+ 1- sigmoid
+ 2- tanh 
+ 3- relu 
+ 4- leeky relu 
+ 4- softmax 
+ 
+ Gen ai actiation 
+	6- gelu 
+	7- swiglu 
+	
+sigmoid vs tanh 
+	sigmoid activation function will be implete output layer | range 0 -1 
+	tanh activation function also impletment in output layer | range -1 to 1 
+
+Relu activation function 
+	relu activation function will be implement in hidden layer | range 0 to infinity 
+	
+leeky relu activation function 
+	leeky relu activation funciton will implemt in hidden layer not output layer | range -1 to infinity 
+	
+when the class is binary -- sigmoid, relu, tanh, 
+when the mutliclass classfication --- softmax range is 0 -1 
+activation function -- output layer 
+=== 
+
+tensorflow is backend framework
+keras will be frontend 
+pytorch -- python + torch 
+
+tensorflow, keras, torch, opencv-python, ultralytics , medipipe 
+langchain, langgraph 
+
+=== 17th 
+
+	 
+	 
+
+	
+	
+
 
 
 
@@ -2991,8 +3151,6 @@ capstone project -- banking, fina, heath, insure
 
 
 
-
-	
 
 
 
