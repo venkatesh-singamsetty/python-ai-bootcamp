@@ -3131,7 +3131,33 @@ langchain, langgraph
 
 === 17th 
 
-	 
+when model overfits we apply -- pca, crossvaldation, ensambel learning, reguarlization 
+			dropout concept -- ANN 
+				
+when ann model overfits -- 
+
+vanishing gradient descend -- ANN while we do the back prop new weight == old weight ( epoc will stop) 
+		less accuracy | high error 
+		
+new weight == old weight | if ann model overfit then only vgd problem occurs 
+to reduce overfitting ann -- we remove the neuron | drop out the neuro or reguare overfitt will 
+model rerun agian 
+Project -- Customer churing using ann model 
+
+=== 
+1- train the model cpu vs gpu google colab )track the time for execution, check the timing 
+2- build ann model with hyperaramter with optimeizer - adagrade, adadelta, adamax, rmsprop, sgg 
+3- kaggle -- pick one datase - ml entire classiication algo _ ann classifier add | regress ml regress, ann regression 
+4- ann we ccomplete today 
+====
+5- capture 30image of your | 15image - happy | 15 image - sad  
+=====
+6- pretrained model -- keras transformer 
+
+=== 18th
+
+
+
 	 
 
 	
