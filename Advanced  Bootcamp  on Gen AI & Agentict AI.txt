@@ -3154,7 +3154,97 @@ Project -- Customer churing using ann model
 =====
 6- pretrained model -- keras transformer 
 
-=== 18th
+=== 19th 
+Image - convolution layer -- maxpool layer 
+
+1- Few happy & Few sad picture 
+2- create 3 folders in cpu -- training , testing, validation  
+3- training create 2 subfolder -- happy & not happy 
+				paste all happy image in happy and sad image in not happy 
+			
+4- validation folder -- create 2 subfolder -- happy & not happy 
+5- testing folder -- just pass few random image for happy & sad 
+6- google -- gmail -- drive -- drag 3 folder and move to there
+7- train.flow_from_directory --
+
+==== 23rd 
+
+1- Pretrained model -- transformer
+2- data augumention - code 
+3- multiclass classification -- project 
+4- fashion mnist project -- project 
+
+ml vs ai 
+
+ml -- train only dataset which has labels ( input, output) ml algortihm
+nlp -- train few text ( limite) embedding 
+cnn -- we train few images ( 20 image ) 
+				cnn model using tf, keras for 20image only it took for 10 epoc 1gb 
+				what if 1l image ( train model ) it will take more time 
+	pretrained model are comes into the picture 
+
+pretrained model -- transformer 
+
+keras 
+
+weights="imagenet" == transformer 
+	
+	imagenet is dataset == 14millio image with 20k categories 
+			
+	1.28 million training images | 50,000 validation images | 100,000 test images
+			1000 classes 
+			
+imagnet dataset is convert to weights 
+weight are made by help of .yaml file 
+
+team are you clear --- practicle
+trained model vs pretrained model == transformer == 
+			many image train by imagenet = weight (.yaml) 
+			
+		you pass any new image ( image net pre tam) 
+				it will predction 
+				
+what if i have an image 
+		that image is not listed any of imagentet dataset
+	
+0% -- thaths why 
+
+open ai launch -- transformer called gpt ( 2016-2022) 
+
+finaly they create rather any dataset trained manuall what if we trained directrfl from internet 
+thats generative ai subject launch in the market 2yr market 
+
+internet -- internet you can image ( no issue to classify any image ) 
+		generative ai transformer used by gpt -- GANS & CLIP, TAMING TRANSFORMER 
+
+
+trained model -- user train some amout of data imge, text , numerb 
+pretrain model -- you import library vgg16-- imagenet 1.4 mil image, 1000 classes 
+								what happend you have few image also not recroding imagenet transformer
+								accuracy will 0 
+what if if trained directly from internet ( finally model will predict the image) 
+		text to text model 
+		text to image model ( multimodel == sota model (state of the art ) 
+												cognitive ai) 
+												
+using keras model apply on pretrained weight -- imagenet 
+
+=== 
+2- data augumention 
+ 
+ Data augmentation is a machine learning technique that artificially expands a dataset's 
+ size and diversity by creating modified versions of existing data (e.g., flipping images, 
+ adding noise). It prevents overfitting, improves model generalization, and corrects class 
+ imbalances without collecting new, real-world data.
+ 
+ fill mode -- nearest, wrap, reflect, constant 
+ 
+==== 24th 
+ 
+
+
+
+	
 
 
 
