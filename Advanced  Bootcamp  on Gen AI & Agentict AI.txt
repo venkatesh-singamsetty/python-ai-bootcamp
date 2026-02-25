@@ -3240,11 +3240,59 @@ using keras model apply on pretrained weight -- imagenet
  fill mode -- nearest, wrap, reflect, constant 
  
 ==== 24th 
+
+1- Read , write, display Images -- 
+cv2.imshow() -- show the image in another window 
+cv2.waitKey()
+cv2.destroyWindows() 
+
+2- https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html
  
-
-
-
+		haarcascade classifier is one of the object detection algorithm 
+		haarcascade classifier github -- you can download all the xml files 
+		
+face detection using opencv haarcascade 
+	1- github -- download frontal face default.xml 
+	2- take your pict which itshow front camera
+	3- refer the code which i posted in the classroom 
+	4- pleas chnage the path location 
+	5- execute 
+	6- are you got ouput 
 	
+videocapture(0) -- immediaty it will open system webcamer-- it will detect your face 
+videocapture(videopath ) -- it will detect video path 
+video capture(1) -- inf any camera outside to the system then it will detect 
+
+=== 25th
+
+project :1 -- color recognition using open cv
+project :2 -- video -- collection of frames 
+project :3 -- ocr (optical charachter recognition
+project :4 -- virtual hand gesture 
+
+hsv -- hue saturation value ( 0-179, 0-255, 0-255) 
+
+0-255 pixel range 
+
+low side of the color -- 0-50 
+dark side of the color -- 200- 255 
+
+video -- collection of image frames ( afterh this project i will explain) 
+		
+
+we detec tvideo from the live webacmer 
+		red, green , blue 
+		
+whate ever we passed if those value are change then code can start misclassify 
+=== ocr - pytesaract (pytorch) 
+
+==== 26th
+			
+
+
+		 
+
+
 
 
 

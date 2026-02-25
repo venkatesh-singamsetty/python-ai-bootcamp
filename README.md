@@ -63,7 +63,7 @@ https://learn.nareshit.com/users/sign_in
 
 ## Push changes to remote repository
 ```bash
-DATE='day-62-2026Feb24-dl-opencv'
+DATE='day-63-2026Feb25-dl-opencv'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 
@@ -79,7 +79,7 @@ tar -xf tmp.rar
 rm tmp.rar
 cd ..
 
-DATE='day-63-2026Feb25-dl'
+DATE='day-64-2026Feb26-dl'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 touch ${DATE}/README.md
