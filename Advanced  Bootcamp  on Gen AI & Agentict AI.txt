@@ -3287,10 +3287,44 @@ whate ever we passed if those value are change then code can start misclassify
 === ocr - pytesaract (pytorch) 
 
 ==== 26th
-			
+	mutliclass classifiction 
+	fashion mnsit 
+	advanced computer vision 	
+
+github -- reposiratory (public & private) 
+bitbucket only used on organziation --- no public only private 
+
+training folder 
+		apple  - 162 items 
+		banana - 153 items 
+		orange - 145 
+		
+testing 
+	apple - 47
+	banana - 43 
+	orange - 40 
+	
+validataion -->
+	apple - 23 
+	banana - 22
+	orange -22
+	
+training image > testing image > validataion image
+
+mac 
+android 
+
+for image save the model using .h5 . onnx,
+mobile device -- tensorflow lite 
+--
+AI is apply everywhere -->
+--
+fashion dataset 
+	60k training & 10k testing 
 
 
-		 
+==== 27th
+	 
 
 
 

@@ -18,3 +18,11 @@ scipy        # Scientific computing (Statistics & Clustering Dendrograms)
 
 # --- NLP ---
 nltk         # Natural Language Toolkit
+
+# --- Deep Learning ---
+tensorflow   # Core library for DL (Neural Networks)
+keras        # High-level API for DL (Neural Networks)
+
+# --- Computer Vision ---
+opencv-python # Computer Vision (Image & Video Processing)
+
