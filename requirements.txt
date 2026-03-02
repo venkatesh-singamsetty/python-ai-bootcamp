@@ -27,3 +27,14 @@ ultralytics  # YOLO models for object detection
 # --- Computer Vision ---
 opencv-python # Computer Vision (Image & Video Processing)
 
+# --- NLP & Transformers ---
+transformers
+torch
+
+# --- Speech recognition & Text to Speech ---
+speechrecognition
+pyttsx3
+pyaudio
+
+# --- Whatsapp ---
+pywhatkit
