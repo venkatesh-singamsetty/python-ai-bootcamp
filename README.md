@@ -63,7 +63,7 @@ https://learn.nareshit.com/users/sign_in
 
 ## Push changes to remote repository
 ```bash
-DATE='day-63-2026Feb25-dl-opencv'
+DATE='day-66-2026Mar2-dl'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 
@@ -79,11 +79,11 @@ tar -xf tmp.rar
 rm tmp.rar
 cd ..
 
-DATE='day-64-2026Feb26-dl'
+DATE='day-67-2026Mar3-dl'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 touch ${DATE}/README.md
-#touch ${DATE}/app.py
+touch ${DATE}/app.py
 cp tmp.ipynb ${DATE}/tmp.ipynb
 
 git add .
@@ -93,6 +93,8 @@ git commit -am "Updated ${DATE}"; git push origin develop; git status
 # 🛠️ Centralized Environment Setup (Recommended)
 # Run these from the repository root to avoid reinstalling packages for every folder
 ```bash
+cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
+
 python3.12 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
