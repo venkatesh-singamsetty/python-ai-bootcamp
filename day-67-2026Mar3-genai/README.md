@@ -1,0 +1,3 @@
+- https://colab.research.google.com/drive/1lOygnSY8TwXYMo1R9xrhr_zfoRFquBNF#scrollTo=928g1VH50RbH
+- https://github.com/openai/CLIP.git
+- https://github.com/CompVis/taming-transformers
