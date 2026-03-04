@@ -3322,8 +3322,135 @@ AI is apply everywhere -->
 fashion dataset 
 	60k training & 10k testing 
 
-
 ==== 27th
+
+yolo -- you only look once 
+opencv library yolo also one of the library 
+
+using help of yolo modle 
+		object detection -- project yolo provid bunch of pretrain model 
+		object segmentation 
+		image classify
+		pose estimates
+		object bouding boxes 
+
+yolo model (v8, v9, 10, 11, v26)
+all pretreained dataset we can found only yolo model 
+
+practicle-1 : object detection using yolo model test in gpu 
+			yolov8.pt | yolov11.pt | yolo26n.pt 
+			
+practicle-2 : object detection image 
+
+=== 2nd 
+
+image analysis 
+video analysis 
+trained model tensorflow, keras, 
+
+pretrain meod -- yolo, opencv 
+
+
+pretrain model -- pretrain dataset 
+		it wont detection 
+		gpt model -- text based model, multimodel 
+RNN (Recurran Neural network) 
+listerner , dreamer, thinker -- 10% learn only practicle 
+
+
+Rnn also called as seq2seq model 
+rnn also called as ENCODER DECODER ARCHITECTURE 
+encoder - input 
+decoder - output 
+
+rnn mainly works 2 concept 
+	lstm (long short term memory ) 
+			input gate 
+			memory cell 
+			ouput gates 
+			forget gate 
+			
+	gru (gated recurent unit) 
+			update gate (input + output)  
+			reset gate 
+			
+BERT CHATBOT  -- discused 
+VOICE BOT simple python function --
+Next word prediction model -- discussed 
+
+WHEN YOU WORKED on image model -- yolo ( you will get all pretrained model )
+text where you get pretredin model -- huggingface 
+
+nlp chatbot
+bert chatbog
+agent chatbot 
+
+how lstm predict the next word
+upload big data -- it wont work ( llm ) 
+
+==== 3rd 
+=== Generative AI & Agentic AI 
+
+ML -- user or developer need to train the label data ( right algorith, model , model predict future, future vs reality)testing) 
+	vs 
+AI -- User trained unstructure data  (text, image, xml, video) user need to write algoriyt, epoch 
+ vs 
+Gen AI --  AI generate strucutre, unstatence , with out trained by user or developer 
+					data trained directly from internet 
+					pretraine model we had lot of issuese those issue will sort it out. 
+				generative ai just generate the code , that code user need to copy and paste in vs code it will work 
+					
+ vs 
+agentic ai --  virual developer also called as virutal agent  	
+user just need to write the prompt (give a goal) agent will connet to the toll -- write the code, fix the erro, generate th e output & 
+			everything done by agens only 
+
+
+
+2- Geni ai learn with 2 component -->
+	GAN ( GENERATIVE ADVERSERIAL NEURAL NETWORK)
+				GENERATOR 
+				DISCRIMINATOR 
+				ADVERSIAL TRAINING 
+	VAE (VARIATION AUTOENCODER) 
+		ENCODER -- input
+		Decoder - output 
+3-		
+gen ai 2 model 
+	text based model  -- user enter text model generate text   
+	
+	multimodel -- user enter text model generate image, 
+							text - video | text - audio 
+					state of the art (sota) | cloud -- cognitive AI 
+					
+4- 
+how to build gen ai model ? 
+	data | computtion power | model architecture | training algorithm 
+	
+5- text to imag gen model with out using any api keys ?
+		what challenge compay will get ?
+		
+clip architecture has -- text + image (both) 
+
+=== 4th 
+
+
+
+
+
+		
+
+		
+	
+
+
+	
+
+
+
+
+		
+		
 	 
 
 
@@ -3411,7 +3538,8 @@ LIST OF COMPLETED TOPICS -->
 				Classificaiton model -- completed 
 				Clustering modle -- completed 
 				
-10 -- AI 
+10 -- AI -- ann, cnn, rnn , pretrained model  
+			
 
 
 		
