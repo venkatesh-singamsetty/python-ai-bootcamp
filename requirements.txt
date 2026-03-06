@@ -38,3 +38,13 @@ pyaudio
 
 # --- Whatsapp ---
 pywhatkit
+
+# --- Generative AI & LangChain ---
+langchain           # LLM framework
+langchain-openai    # OpenAI bridge for LangChain
+langchain-google-genai # Google Gemini bridge for LangChain
+langgraph           # Building stateful AI agents
+langsmith           # LLM application tracing and monitoring
+openai              # OpenAI SDK
+google-genai        # Google's GenAI SDK (Required for Gemini)
+tiktoken            # Tokenizer for OpenAI models
