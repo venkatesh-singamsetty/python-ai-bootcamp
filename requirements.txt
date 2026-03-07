@@ -47,4 +47,4 @@ langgraph           # Building stateful AI agents
 langsmith           # LLM application tracing and monitoring
 openai              # OpenAI SDK
 google-genai        # Google's GenAI SDK (Required for Gemini)
-tiktoken            # Tokenizer for OpenAI models
+langchain-core      # Core LangChain abstractions (Prompts, Parsers)

@@ -3434,6 +3434,134 @@ clip architecture has -- text + image (both)
 
 === 4th 
 
+AI -->
+	NLP  -- language model ( text clean, text extraction) 
+	RNN -- speech 
+			pretried model | even though t-test
+			
+text directed trained from internet | internet 
+
+chatgpt -- can you tell me about ipl match 
+no body massive text to cpu or bot to build model 
+
+llm tokenizeer
+	bpe tokeizer -- we have consider frequency (1, 2)
+	wordpiece -- we have consider probability (0.17) 
+	sentence piece - for chinsese & japase any other langeuage sentence piece is applicable
+	
+nlp  embedding -->
+	bow  -- text - 0 or 1 or 2 or 
+	tfidf -- text -- log decimal 
+	word2vec -- semantic meansing (text similiarity) not handle well for gensim models 
+			
+llm embedding 	-->
+
+			when chatgpt give all response ? 
+for any personal work gpt will not benefit ? thats why RAG comes into the picture 
+
+everyone in this batch , RAG is one of the importatn topic ?
+
+attention --
+		simple self attention -- 1 word multiple meaning  
+		multihead attention -- many word many meansing we 
+	
+gpt 2 -- 10k hr for trainig ( 2015-2021)  21 | 
+gpt 3 -- 2020- 2022
+gpt 3.5 - 2022- 31may 23 
+gpt 4 - 2024
+gpt 40 - 2025
+gpt 5 - 
+gpt 5.1
+gpt 5.2  -- 2027 predictoin (it cant give  
+
+gpt model train internet data latest 
+
+
+as these llm models are large develoer cannot work even in gpu 
+thats why 3rd party organizat introuce in the world	
+			huggingface 
+			groq 
+			olllama 
+			openrouther
+		
+help us to get api keys -- 
+
+dl -- tf, keras, opencv, yolo 
+ml -- sklearn, lgbm, xgboo 
+gen ia -- langchain, langgraph
+
+===== 6th 
+google has mutliple bussiness | meta --  
+opne ai -- gpt used to build llm 
+
+langchain documentation -- website 
+opne ai eco system 
+chatgpt build by open ai 
+custom gpt lets ttye 
+
+	using help of opeai what can do -->
+--
+Core concept -->
+---
+text generation model
+code generation 
+image & vision 
+audio & speech
+structure output
+function calling
+
+gpt -- llm model 
+
+to build llm project 
+
+1- Langchain 
+2- Langgraph 
+3- Langsmith -- 
+		observibility 
+		evalation 
+		prompt engineer 
+		Deployment 
+4- Deepagent 
+
+1- LangChain is an open source framework with a pre-built agent architecture and integrations for 
+any model or tool — so you can build agents that adapt as fast as the ecosystem evolves
+
+tool calling -- external tool ( db & api) 
+structure ouput 
+multimodality -- text to image, vide, audio 
+reasoning -- reasoning to arrive at a conclusion
+
+Messages are the fundamental unit of context for models in LangChain
+	
+		role -- role playing prompt 
+		content 
+		metadata 
+
+langchain memory 
+	long term memory -- it store past information  (
+	short term memory  -- it store recent information ( recent information) 
+	
+rate limit errror -- just to 5$ open ai api key -- it will work for you  ( I dont want you to purchase) 
+
+
+Poc:1 -- langchain + open ai api key -- to generate text to text based model 
+Poc:2 - langchain + geminii api key -- to generat text based model
+
+=== 7th 
+-------
+Langchain architecture -->
+-------
+Poc:1 -- langchain + open ai api key -- to generate text to text based model 
+Poc:2 - langchain + geminii api key -- to generat text based model
+poc:3 -- language translation 
+poc:4 -- prompt templates 
+poc:5 -- Hugging face embedding 
+Project -- custom gpt & monitored in langsmith ( LLMOPS) 
+--
+	login to langsmith -- create an api key 
+	
+==== 9th 
+
 
 
 
