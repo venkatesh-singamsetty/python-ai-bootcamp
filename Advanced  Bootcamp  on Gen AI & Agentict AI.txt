@@ -3561,8 +3561,49 @@ Project -- custom gpt & monitored in langsmith ( LLMOPS)
 	login to langsmith -- create an api key 
 	
 ==== 9th 
+Stable diffusion model 
+
+stable diffusion technique build by -- stability ai on 2022 ( text - image model 
+stable diffusion use latent diffusion model 
+
+compvis group  -- research phar 
+stable diffusioon model has 
+
+--
+Multimodel -->
+--
+Project1: text to image mode using stable diffusion 
+
+Project:2 -- text to audio
+		HF -- access tokens -- cretae new token -- keep that token with you 
 
 
+===== 10th
+project-1 : text to image model using stable diffusion 
+project-2 : text to audio generation using stbale diffusion 
+
+1- login to hugging face 
+2- models - stabilityai/stable-audio-open-1.0
+3- gated the model --we need to approval from stabilty ai i am using your server 
+4- give read, write, acces model permision 
+5- from huggingface_hub import notebook_login
+			notebook_login()
+
+	give your auth tokens 
+	
+what are the challange we face while we build geneartive ai models ?
+live we discussed today 
+	how more memory and 32 gb ram and if i can purchase colab pro then only i can contine this code & it will owrk
+
+project:3 -- text to video genrate ( if anyone has more computation then this code will work) 
+
+pipeline import from transformer 
+
+4- poc: TEXT GENERATION MODEL ( MODEL - GPT2)	
+5- poc: NER 
+6- SENTIMENT ANALYSIS PROJECT 
+
+=== 
 
 
 
