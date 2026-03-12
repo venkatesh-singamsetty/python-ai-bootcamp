@@ -3,6 +3,8 @@ numpy        # Array computing and mathematical operations
 matplotlib   # Basic plotting and data visualization
 pandas       # Data structures and data analysis (DataFrames)
 seaborn      # Statistical data visualization (built on Matplotlib)
+ipywidgets   # Interactive widgets for Jupyter (fixes tqdm warning)
+tqdm         # Progress bars
 
 # --- Web Application Framework ---
 streamlit    # Interactive web apps for ML models

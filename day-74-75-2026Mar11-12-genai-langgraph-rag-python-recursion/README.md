@@ -1,2 +1,3 @@
 - https://console.groq.com/keys
 - https://www.kaggle.com/datasets/saigkrish/sample-audio-files?select=VN-sir.mp3
+- https://github.com/langchain-ai/langgraph
