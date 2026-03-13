@@ -3603,17 +3603,57 @@ pipeline import from transformer
 5- poc: NER 
 6- SENTIMENT ANALYSIS PROJECT 
 
-=== 
+=== 11th 
 
+please try to build image to image based model -- lets see how it behaves 
+Image to image --	https://huggingface.co/Qwen/Qwen-Image-Edit-2511
+	
+	if that repo is not working -- my 
 
-
-		
-
-		
+langgraph --> 
 	
 
+state -- connection between nodes -- edges 
+edge -- what is process flow from one node to other node 
+node -- clal to llm or it call .py code file 
 
+---
+GROQ --> 
+---
 	
+=== 12th 
+
+agenta for today session -->
+	 multinode graph 
+python 
+
+
+today we worked more then one message -- multinodge graph build we have been done 
+
+=== RAG ( Retrieve Agumented generation) 
+LLM vs RAG 
+
+recursion -- function call fuction is recursin \\
+
+
+
+leetcode -- numy & pandas ( just try) 
+vs code -- 
+		
+sys.getrecursionlimit 
+sys.setrecursion limit 
+
+=== 13th 
+Recursion -- we dicussed 
+
+RAG -- llm model vs Rag 
+
+
+
+
+ 
+
+
 
 
 
