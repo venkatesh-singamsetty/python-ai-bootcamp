@@ -1,3 +1,5 @@
+- https://colab.research.google.com/drive/1FpthEZ6-w_NlIJcbeN92XgyqSi7dEaTW#scrollTo=5mB-u-DSMBb0
+
 # RAG System with LangChain, ChromaDB, and Groq
 
 This project implements a Retrieval-Augmented Generation (RAG) system that allows users to ask questions about a PDF document. It uses LangChain for orchestration, ChromaDB as the vector store, HuggingFace for embeddings, and Groq (Llama 3) for the language model.
