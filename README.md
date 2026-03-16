@@ -63,7 +63,7 @@ https://learn.nareshit.com/users/sign_in
 
 ## Push changes to remote repository
 ```bash
-DATE='day-74-75-2026Mar11-12-genai-langgraph-rag-python-recursion'
+DATE='day-76-2026Mar13-genai-rag-python'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 
@@ -79,7 +79,7 @@ tar -xf tmp.rar
 rm tmp.rar
 cd ..
 
-DATE='day-75-2026Mar12-genai'
+DATE='day-77-2026Mar16-genai'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 touch ${DATE}/README.md
@@ -111,4 +111,25 @@ gradio app.py
 ```bash
 brew reinstall portaudio
 pip install pyttsx3
+```
+
+```bash
+# 1. Install required packages (if not already installed)
+!pip install -q google-generativeai
+
+import os
+import sys
+import google.generativeai as genai
+
+# 2. Retrieve the API key from the environment variables (e.g. bash_profile)
+api_key = os.getenv('GOOGLE_API_KEY')
+
+if not api_key:
+    error_msg = "FAILED: GOOGLE_API_KEY environment variable is not set. Please ensure it is set or restart Jupyter!"
+    print(error_msg)
+    sys.exit(error_msg)
+
+# 3. Configure genai with the loaded API key
+genai.configure(api_key=api_key)
+print('GOOGLE_API_KEY from environment configured successfully.')
 ```
