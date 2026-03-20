@@ -51,3 +51,5 @@ openai              # OpenAI SDK
 google-genai        # Google's GenAI SDK (Required for Gemini)
 langchain-core      # Core LangChain abstractions (Prompts, Parsers)
 google-generativeai # Google's GenAI SDK (Required for Gemini)
+ollama
+langchain-ollama    # Langchain Ollama integration

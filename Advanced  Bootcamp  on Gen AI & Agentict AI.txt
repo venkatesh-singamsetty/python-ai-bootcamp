@@ -3686,23 +3686,87 @@ gemma -- open models
 i will keep giving work no problem if you are unable to work 
 atleast please work what ever I am class 
 
-== 
+== 18th
+
+llama4 
+	llama4 scout 
+	llama4 maverick
+	
+llama 3.1
+llama 3.2 
+	1B
+	3B
+llama 3.3 
+	70B
+
+	
+to download these model we need to someone who 
+
+huggingface  &  groq 
 
 
+when you working image -- Just use google gemini 
+when you work with text based model, coding agent -- chatgpt or claude 
+when you need finetune then use -- llama 
 
 
+temperature=1,     
+max_completion_tokens=1024,     
+top_p=1,     
+stream=True,     
+stop=None
 
-
+all the parameter i will be teaching in prompt engineering 
  
 
+we are understhood how to access llama model with groq -- yes tema
+lets work llama model with hugging face 
+
+==== 20th llama finetunning 
+
+what is meaning of finetunning in llm ? 
+
+As we are unable to work llm model in cpu
+as these model are heavey model even though gpu also crash 
+
+model size and parametar are very large thats the reason we are unable to work in cpu
+every organization are none purchare new gpu or new setup 
+
+finetunning 
+	even though llm model has to be run in low config gpu also that concept called finetune 
+	
+quantization -- 1b, 4b, 8b 
+reduce to code 1b, 4b, 8b fine tune 
 
 
+ml mode .ipynb size 20mb
+after i picklge kb ( am i correct) 
 
 
+no model can be finetune only one llama 
+finetuaing technqique are 
 
+
+PEFT ( PRETRAINED EFFICIENT FINETUNE TECHNIQUE) -->
+
+	LORA  -- Low order rank adapiton 
+	QLORA  -- Quantized low order rank adattit
+
+LLM quantization is a model compression technique that reduces the precision of a 
+model’s weights and activations—typically from 16-bit or 32-bit floating-point to 8-bit or 4-bit integers. 
+This significantly decreases memory usage, speeds up inference, and allows large models to run on 
+consumer hardware (GPUs/CPUs) while minimizing accuracy loss.
+
+can you reuce manual weight 64bit -- 8bit, 4bit, 1bit ( manuall there highly impossible )
+quantization -- compre llm model modewl should run low size gpu memory or cpu memory 
+
+https://medium.com/@techresearchspace/what-is-quantization-in-llm-01ba61968a51
+https://www.datacamp.com/tutorial/quantization-for-large-language-models
+
+===== 
 		
 		
-	 
+
 
 
 

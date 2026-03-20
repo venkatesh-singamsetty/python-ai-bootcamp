@@ -1,0 +1,325 @@
+==== LORA FINETUNE 
+
+from transformers import AutoModelForCausalLM, AutoTokenizer, Trainer, TrainingArguments
+from peft import LoraConfig, get_peft_model
+from datasets import load_dataset
+
+# Load model & tokenizer
+model_name = "meta-llama/Llama-2-7b-hf"  # or any HF model
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelForCausalLM.from_pretrained(model_name)
+
+# LoRA configuration
+lora_config = LoraConfig(
+    r=8,                      # rank
+    lora_alpha=32,
+    target_modules=["q_proj", "v_proj"],  # depends on model
+    lora_dropout=0.05,
+    bias="none",
+    task_type="CAUSAL_LM"
+)
+
+# Apply LoRA
+model = get_peft_model(model, lora_config)
+model.print_trainable_parameters()
+
+# Dataset
+dataset = load_dataset("imdb", split="train[:1%]")
+
+def tokenize(example):
+    return tokenizer(example["text"], truncation=True, padding="max_length", max_length=512)
+
+dataset = dataset.map(tokenize, batched=True)
+
+# Training args
+training_args = TrainingArguments(
+    output_dir="./lora-output",
+    per_device_train_batch_size=2,
+    num_train_epochs=1,
+    logging_steps=10,
+    save_steps=100,
+    fp16=True
+)
+
+# Trainer
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=dataset
+)
+
+# Train
+trainer.train()
+
+# Save
+model.save_pretrained("lora-model")
+tokenizer.save_pretrained("lora-model")
+
+============ QLORA
+
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, Trainer, TrainingArguments
+from peft import LoraConfig, get_peft_model
+from datasets import load_dataset
+import torch
+
+model_name = "meta-llama/Llama-2-7b-hf"
+
+# Quantization config (4-bit)
+bnb_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_compute_dtype=torch.float16,
+    bnb_4bit_use_double_quant=True,
+    bnb_4bit_quant_type="nf4"
+)
+
+# Load model in 4-bit
+model = AutoModelForCausalLM.from_pretrained(
+    model_name,
+    quantization_config=bnb_config,
+    device_map="auto"
+)
+
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+# LoRA config
+lora_config = LoraConfig(
+    r=16,
+    lora_alpha=32,
+    target_modules=["q_proj", "v_proj"],
+    lora_dropout=0.05,
+    bias="none",
+    task_type="CAUSAL_LM"
+)
+
+# Apply LoRA on quantized model
+model = get_peft_model(model, lora_config)
+model.print_trainable_parameters()
+
+# Dataset
+dataset = load_dataset("imdb", split="train[:1%]")
+
+def tokenize(example):
+    return tokenizer(example["text"], truncation=True, padding="max_length", max_length=512)
+
+dataset = dataset.map(tokenize, batched=True)
+
+# Training args
+training_args = TrainingArguments(
+    output_dir="./qlora-output",
+    per_device_train_batch_size=2,
+    gradient_accumulation_steps=4,
+    num_train_epochs=1,
+    logging_steps=10,
+    save_steps=100,
+    fp16=True,
+    optim="paged_adamw_32bit"
+)
+
+# Trainer
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=dataset
+)
+
+# Train
+trainer.train()
+
+# Save
+model.save_pretrained("qlora-model")
+tokenizer.save_pretrained("qlora-model")
+
+============================ QUANTIZATION TECHNIQUE USE BELOW APPROACH ===========================
+Here’s a **clear, interview-ready summary** of the main **quantization techniques & tools** used in LLM fine-tuning and inference 👇
+
+---
+
+# 🧠 Quantization Techniques (Quick Summary)
+
+## 🔹 1. bitsandbytes (bnb)
+
+👉 Most widely used for **LLM quantization**
+
+**What it does:**
+
+* Converts model weights into **8-bit or 4-bit**
+* Reduces GPU memory drastically
+
+**Key Features:**
+
+* ✅ 8-bit (LLM.int8)
+* ✅ 4-bit (NF4 – used in QLoRA)
+* ✅ Works with Hugging Face Transformers
+* ✅ Supports training + inference
+
+**Example:**
+
+```python
+from transformers import BitsAndBytesConfig
+
+bnb_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_quant_type="nf4"
+)
+```
+
+**Use Case:**
+👉 QLoRA, low-memory training, single GPU setups
+
+---
+
+## 🔹 2. Accelerate
+
+👉 Not a quantization method — it's a **training/inference orchestration tool**
+
+**What it does:**
+
+* Handles:
+
+  * Multi-GPU
+  * Mixed precision (fp16/bf16)
+  * Device placement
+* Works with quantization libraries like bitsandbytes
+
+**Key Features:**
+
+* ✅ Easy scaling across GPUs
+* ✅ Handles memory efficiently
+* ❌ Does NOT quantize itself
+
+**Use Case:**
+👉 Combine with bitsandbytes / DeepSpeed / FSDP
+
+---
+
+## 🔹 3. GPTQ (Post-Training Quantization)
+
+👉 High-performance inference quantization
+
+**What it does:**
+
+* Quantizes model **after training**
+* Mostly **4-bit**
+
+**Key Features:**
+
+* ✅ Very fast inference
+* ✅ Minimal accuracy loss
+* ❌ Not used for training
+
+**Libraries:**
+
+* AutoGPTQ
+
+**Use Case:**
+👉 Production inference (chatbots, APIs)
+
+---
+
+## 🔹 4. AWQ (Activation-aware Weight Quantization)
+
+👉 Newer and more accurate than GPTQ
+
+**What it does:**
+
+* Uses activations to preserve important weights
+
+**Key Features:**
+
+* ✅ Better accuracy than GPTQ
+* ✅ Optimized for GPUs
+* ❌ Mostly inference-focused
+
+**Use Case:**
+👉 High-quality inference with low memory
+
+---
+
+## 🔹 5. QLoRA (Technique, not library)
+
+👉 Combines quantization + LoRA
+
+**What it does:**
+
+* Uses:
+
+  * bitsandbytes (4-bit)
+  * LoRA adapters
+* Fine-tunes large models on small GPUs
+
+**Key Features:**
+
+* ✅ Train 7B–65B models on single GPU
+* ✅ Memory efficient
+* 🔥 Most important modern technique
+
+---
+
+## 🔹 6. FP16 / BF16 (Mixed Precision)
+
+👉 Not quantization, but related optimization
+
+**What it does:**
+
+* Uses 16-bit instead of 32-bit
+
+**Key Features:**
+
+* ✅ Faster training
+* ✅ Less memory
+* ❌ Not as efficient as 4-bit
+
+---
+
+## 🔹 7. DeepSpeed (ZeRO + Quantization support)
+
+👉 Advanced optimization framework
+
+**What it does:**
+
+* Memory partitioning (ZeRO)
+* Supports quantization + offloading
+
+**Key Features:**
+
+* ✅ Train massive models
+* ✅ CPU/NVMe offloading
+* ❌ Complex setup
+
+---
+
+# ⚡ Quick Comparison Table
+
+| Technique    | Type      | Training | Inference | Memory Saving | Notes                |
+| ------------ | --------- | -------- | --------- | ------------- | -------------------- |
+| bitsandbytes | Library   | ✅        | ✅         | 🔥🔥🔥        | Core for QLoRA       |
+| Accelerate   | Framework | ✅        | ✅         | ⚡             | Not quantization     |
+| GPTQ         | Method    | ❌        | ✅         | 🔥🔥🔥        | Fast inference       |
+| AWQ          | Method    | ❌        | ✅         | 🔥🔥🔥        | Better accuracy      |
+| QLoRA        | Technique | ✅        | ❌         | 🔥🔥🔥🔥      | Best for fine-tuning |
+| FP16/BF16    | Precision | ✅        | ✅         | 🔥            | Standard             |
+
+---
+
+# 🎯 Simple Way to Explain in Interview
+
+👉 If they ask:
+
+**“What are quantization techniques?”**
+
+Say:
+
+> Quantization reduces model size by converting weights from 32-bit to lower precision like 8-bit or 4-bit. Popular approaches include bitsandbytes for training, GPTQ/AWQ for inference, and QLoRA which combines 4-bit quantization with LoRA for efficient fine-tuning.
+
+---
+
+# 🚀 Recommendation (Real Projects)
+
+* **Training (low GPU)** → QLoRA + bitsandbytes
+* **Inference (fast API)** → GPTQ / AWQ
+* **Scaling** → Accelerate / DeepSpeed
+
+=================================
+
+
+
