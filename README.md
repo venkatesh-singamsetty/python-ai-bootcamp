@@ -1,3 +1,5 @@
+[ml-ai-genai.png](ml-ai-genai.png)
+
 ## **Course Name:** Python with Generative AI & Agentic AI Bootcamp
 - AI: NLP, DL, Neural Networks  
 - Gen AI: AI tools for generating content  
@@ -63,7 +65,7 @@ https://learn.nareshit.com/users/sign_in
 
 ## Push changes to remote repository
 ```bash
-DATE='day-76-2026Mar13-genai-rag-python'
+DATE='day-80-2026Mar20-genai-finetune-deepseek'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 
@@ -79,7 +81,7 @@ tar -xf tmp.rar
 rm tmp.rar
 cd ..
 
-DATE='day-77-2026Mar16-genai'
+DATE='day-81-2026Mar23-genai'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 touch ${DATE}/README.md
