@@ -1,5 +1,3 @@
-[ml-ai-genai.png](ml-ai-genai.png)
-
 ## **Course Name:** Python with Generative AI & Agentic AI Bootcamp
 - AI: NLP, DL, Neural Networks  
 - Gen AI: AI tools for generating content  
@@ -135,3 +133,7 @@ if not api_key:
 genai.configure(api_key=api_key)
 print('GOOGLE_API_KEY from environment configured successfully.')
 ```
+
+## Architectures
+- [ml-ai-genai.png](images/ml-ai-genai.png)
+- [rag.png](images/rag.png)
