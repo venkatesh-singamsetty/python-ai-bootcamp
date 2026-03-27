@@ -87,7 +87,7 @@ touch ${DATE}/app.py
 cp tmp.ipynb ${DATE}/tmp.ipynb
 
 git add .
-git commit -am "Updated ${DATE}"; git push origin develop; git status
+git commit -am "Updated ${DATE}"; git push origin main; git status
 ```
 
 # 🛠️ Centralized Environment Setup (Recommended)
