@@ -48,8 +48,12 @@ langchain-google-genai # Google Gemini bridge for LangChain
 langgraph           # Building stateful AI agents
 langsmith           # LLM application tracing and monitoring
 openai              # OpenAI SDK
+groq                # Groq SDK for Moonshot/Kimi
 google-genai        # Google's GenAI SDK (Required for Gemini)
 langchain-core      # Core LangChain abstractions (Prompts, Parsers)
 google-generativeai # Google's GenAI SDK (Required for Gemini)
 ollama
 langchain-ollama    # Langchain Ollama integration
+ 
+# --- Utilities ---
+python-dotenv       # Loading environment variables from .env files
