@@ -57,3 +57,6 @@ langchain-ollama    # Langchain Ollama integration
  
 # --- Utilities ---
 python-dotenv       # Loading environment variables from .env files
+
+tkinter
+
