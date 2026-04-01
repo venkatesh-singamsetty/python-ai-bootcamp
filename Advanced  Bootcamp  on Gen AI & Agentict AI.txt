@@ -3763,8 +3763,359 @@ quantization -- compre llm model modewl should run low size gpu memory or cpu me
 https://medium.com/@techresearchspace/what-is-quantization-in-llm-01ba61968a51
 https://www.datacamp.com/tutorial/quantization-for-large-language-models
 
-===== 
+===== 25th
+
+1- what is prompt engineering 
+
+2- why to learn prompt engineering 
+
+3- llm model setting 
+			
+			- model has to define in the code (developer has to choose the model so that tokens will get data from model 
+			
+			- tempreature 0-2 (chat model) 
+					by default suggest tempreat to 1 ( neither low temp nor high temp) 
+			
+			- top-p  + temperatu == responese more powerfull  
+					temp - 1 & top-1 == 1 ( best respone) 
+					
+			- max length -- 		
+					about indina in 10 sentecen 
+						
+			- stop senquence				
+			
+			- frequency penalty 0-2 (deprecated) 
+			
+			- present penalty 
+			
+4- prompt elements or prompt injection
+				context, safe, tone, style, background 
+				
+5- shot technques 
+					0 shot technique -- 0 shot technique
+					1 shot technique - 1 shot  
+					few shot techniqes -- few example 
 		
+every llm works in zero shot techniquue  
+		llm model folow techniqu 
+		
+response more accruacy if you give few example -- few show technique 
+
+
+6- COT tehcnique (chain of thoughts) 
+			0 cot 
+			1 cot 
+			few cot 
+			
+			promput -- model thinkging --- proper chain -- chain of thoughts -- responese 
+			
+
+7- self consistency in prompt engineer
+
+	same token -- exceut 3time ( same answer) 
+	change then token once -- then you got difference answer 
+
+8- out of date learning 
+		gpt model 2022 -- 
+						2022 -- 2026 ( gpt 3) 
+		dhurna -2 ( 2026) yr 
+		gpt 3 can respone about 2026 new release move 
+	rag + gpt3 
+	
+	gpt 3 ( 2023) 
+	gpt4 ( 2025) 
+	gpt 5 
+	
+9- rag 
+
+=== prompt engineer code 
+
+gpt3 -- you cannot touch it 
+claude -- you cannot do it 
+llama -- you can finetune 
+
+azur dp profession 
+azur ai engineer   
+
+==== advance python 
+	-- python datastructure
+	-- condition statement 
+	-- loops 
+	-- break continue pass
+	-- function 
+	
+==== 26th
+ 
+1- Simple Prompt Creation in Python
+
+2- generating promput using user input() & def 
+
+3- generating prompt using loops 
+
+4- generating promp tusing tempalat :  using function 
+
+5- Generating Multiple Prompts Dynamically Using Lists
+
+6- generating prompt using step wise 
+
+7- generate prompt using fstring
+
+8- lets add + api key to  this code 
+
+9- Prompt engineering practicle 
+
+== python ==
+
+ ==== lambda function 
+ ==== intro python decorator 
+ ==== module cration 
+ ==== oops 
+
+function vs lambda fuction 
+
+function must require name 
+
+variabel == lambda keyword
+lambda function == you dont required any name for it that is why we called this anonymous 
+lamda took less memory compar use defien function 
+
+
+fun vs lambda function 
+	
+	filter() - filter all even number from the list  
+	map() -- 
+	reduce() 
+	
+using function vs using lambda 
+	
+map using function vs map using lambda 
+	
+reduce using function vs reduce using lambda 
+
+=== 27th || ( python oops )
+
+object oriented programming language 
+=== 
+world all real time problems solved with the help of object -- did you understnad 
+
+1- class 
+2- method 
+3- object 
+4- encapsulation
+5- inheritance
+6- polymorphism
+7- abstraction
+
+1- objects are  the blueprint of the class 
+		class -- design 
+		objects are carried the design 
+		
+	if user defin one class you can create object as many as you can 
+		
+2- class -- 2 part 
+			inbuild class  -- understood 
+			user define class 
+		
+function -- without class we called def as function 
+function -- within class never ever called as function --- method
+
+		within class -- method 
+		without class - function 
+		
+3- how to define user def class, user define method , 
+		classname. methodname (self is not required)
+		obj.method(self must treuqired) 
+			self is pointer which refering to the object 
+	 
+best practise everytime we need to follow is call method with obj.method name wher self must be pass in there 
+		1class -- user can define many object 
+		
+
+4- there special concept called __init__ 
+		
+			class -- inbuild & user define 
+			method -- special methd , user define method 
+	 
+	 user define method vs special method 
+	 
+		user define methd -- everytime user must need to call the method name to print the statment 
+		special method -- __init__ -- by just define object bydefaut method will call 
+		
+1- class -- done 
+2- method  -- done 
+3- object  -- done 
+
+4- encapsulation
+5- inheritance
+6- polymorphism
+7- abstraction		
+			
+class - inbuild & user define 
+method -- special, user define
+fun - inbuild & user define 
+----
+ENCAPSULATION --->
+----
+		variable 
+				instance variable 
+				class variable == static variable 
+		methods 
+				instance method 
+				class method 
+				static method 
+
+
+user define 
+specila method 
+instance
+class 
+staic methob
+abstract method 	
+
+=== 28th 
+	
+instance variable == variable define inside __init__ 
+class variable or static variable == variale define outside of init __init__ 	
+	
+variables in encapusulation  -- instance variabe, class variable, how to access it we discusesed now 
+class variabl also we called as static variabel where as class method !=static method 
+
+
+methods in encapsulation 
+		instance method  --- access only instance variable 
+		class method -- access class varaible & make sure user need to pass cls argument 
+		static method -- never care abut what is instance method or class method does it will print at any cost 
+		
+decoraot will be using in 3 place -- class method, static method, abstract method 	
+
+special method vs user defien method vs instance method 
+when you difne class method user mus tbefien method anme with (cls
+
+=== encapsulation is completed 
+
+class 
+method 
+object 
+encapsulation 
+
+== INHERITENCE -->
+
+single level inheritience -- alwaye deals with one parent child class ( 1 parent class & 1 chile class) 
+multi level inhertence -- 1 parent class & more then 1 child class 
+multiple inheritence -- if we inherit multiple class in class 
+hybrid inheritence  -- (multilevel + multiple ) 
+
+constructor in inheritence -- __init__ 
+super() 
+
+
+ inheritence -- alwasy work with minimum 2 classes 
+		parent class == super class 
+		child class == sub class 
+		
+=== 31st
+	
+ML -- user need to train strucuture data ( excel, csv )  -- user only need to write all algorithm 
+vs 
+AI -- user need to train text, image, video ( unsupervised learning) 
+vs 
+Gen ai -- user no need to train any data | user only write promet + smll python function + llm -- project is done 
+vs 
+Agentic ai -- agent will work the task, debug the code, complete the project 
+
+
+Gen ai vs agentic ai 
+gen ai -- ai generate code , image, text, etc 
+agentic ai -- agents generate code, write code,  if you got any error fix the error , complete the project end to end is called agentic ai 
+
+human learning vs machine learning 
+human intelligence vs artificial intelligence 
+human neural network vs  Ann 
+human vision vs computer vision 
+physica agent vs virtual agent 
+
+AGENTIC AI IDE WE HAVE -- 
+	lets try to all the agentic ai ide today 
+
+1- CURSOR AI IDE 
+
+2- ANTIGRAVIY IDE 
+		downlaod and install
+		agentic ai ide -- create by google 
+		if login with your gmail you can login to gmail 
+		create folder in you local drive -- antigravity project
+		open the folder 
+	
+		cursor ai & antigravity every i have to install this from website 
+	
+3- cline ide 
+		vs code -- extension 
+
+====  1st 
+
+agentic ai ide -->
+		
+		
+polymorphism
+abstraction
+iterator 
+generator 
+multithreading
+
+
+agentic ide 
+
+- cline
+- blackbox agent
+- kilo code
+- antigravity
+- cursor 
+
+=== oops - 3 
+
+class | method | object | encapsualation | inheritence 
+polymophism 
+
+n8n agent-- please watch the video 
+
+4type for polymorphism
+
+1- duck typing
+		method name must be same for all the defines classes 
+		def the funciton outside of the class 
+		
+
+2- operator overloading
+				+ == __add__
+				- == __sud__
+				* == __mul__ 
+		we will be using magic method to work on the oops code 
+			
+				
+3- method overloading
+				using argument default argument & variable lengthg argument
+
+4- method overriding 
+		use in inheritence 
+
+
+
+
+
+		
+		
+
+
+
+		
+
+		
+
+		
+
+
+
+
 		
 
 
