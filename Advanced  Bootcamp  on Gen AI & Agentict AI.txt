@@ -4098,10 +4098,131 @@ n8n agent-- please watch the video
 4- method overriding 
 		use in inheritence 
 
+==== 2nd 
+
+Abstract class -- class which method that abstract class  
+Abstract method  -- has declaration but no defination no boddy 
+
+
+userdefine class, inbuild class, superclass(parent), subclass(child), abstract class, thread class 
+special, user def, instanc , class, static, magic metho, abstract method 
+user pass argument as (ABC) 
+from abc(abstract base class) import ABC, abstract method 
+can you create object of abstract class == yes /no 
+NO once class is abstract we are not going creat object for it 
+
+=== MUTLITHREADING 
+
+music 
+code 
+pdf 
+agent 
+
+multiple task -- runs in same time ? how it happens 
+
+== python 
+== dataanlaysis toolkt ( np, pd, plt. sns) 
+== raw, clean, eda, 
+== ml ( regression , classificaiton, clustering) 
+== ai (NLP, DL, ANN , CNN, RNN) 
+== gen ai, gans , vae , transformer 
+== llm model ( fine tune ) 
+== prompt engineer 
+== agentic ai ide also 
+== agentic ai ide 
+
+AGENTIC AI -- 2025 ( new domain) 
+		how do you know llm will give better result or not ? 
+
+who ever give interview on agentic ai topic ?
+	please reseach interview person who take your interview ?
+	he also no idea ? 
+	
+agentic ai ?
+		single agent -- 
+		mulit agent 
+		
+Tomorrow onwards we will build single and multi agent
+
+1- langchain agent
+2- n8n agent 
+3- smolagent
+4- phi data (agno agi)
+5- crew ai 
+6- open claw 
+7- mcp (model context protocol) 
+
+=====  3rd 
+
+1- AGENTIC AI WORKFLOW -->
+
+2- AGENTIC AI COMPONENT -->
+		agents -- autonomus system that can perceive, think, complete the goal 
+		environment - the context where agents will operate ( website, api call, database) 
+		perception -- how the agents gather informatio (api, sensor, tools etc) 
+		memory -- short term memory & long term memory 
+		planning -- the agent is able to break complex task to easy and complete the job 
+		decission engine -- rules , logics 
+		tool use -- websearch , api, database, cloud integration 
+		learning -- agent learn from mistake (feedback loop) 
+		goal allignment -- master is right prompt and complete the goal 
+		
+3- smolagents 
+
+	The DuckDuckGoSearchTool is a popular, free, and privacy-focused tool used by AI agents 
+	and language models (LLMs) to retrieve real-time information from the web. It acts as a wrapper 
+	around the DuckDuckGo search engine, allowing AI assistants to perform research, answer current 
+	events questions, and ground their responses in factual data without requiring an API key.	
+		
+
+4- every month or 2 months -- agent updated their parameter 
+		we got issue on tranformer model from huggingface 
+			this 
+		Transformmodels not work 
+		
+		
+5- please create new .ipynb file 
+		
+gpt 3
+gpt 4
+gpt 5
+gpt 5.4
+gpt 5.5  also had inbuild agent 
+
+
+all gpt model are generating response only 
+			
+			
+			gpt 5.5 -- you can use only gpt 
+			
+
+llm model chat generate same response -- 
+agentic ai 
+
+
+we are building code 
+chatg -- applikcation 
+
+why we lear ( build it ) 
+llm model gemin ai vs agents using gemin ai 
+llm model -- generate respoinse ( api key ) got respoine 
+llm +  agents -- got responese 
+single agent 
+you gusy no need to emmeber any ml model 
+cuz agents are writenen all ml code -- thats compny are not hiring any ml devloper 
+no job in ml.. did you clear 
+	
+same code pattern will automize 	
+		
+	crew ai -- multiagent 
+	
 
 
 
-
+ 
+				
+				
+ 
 		
 		
 
