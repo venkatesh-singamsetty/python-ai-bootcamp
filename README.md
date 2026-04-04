@@ -63,7 +63,7 @@ https://learn.nareshit.com/users/sign_in
 
 ## Push changes to remote repository
 ```bash
-DATE='day-85-2026Mar28-python-oops'
+DATE='day-89-2026Apr3-agentic-ai-smolagents'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 
@@ -79,7 +79,7 @@ tar -xf tmp.rar
 rm tmp.rar
 cd ..
 
-DATE='day-85-2026Mar28-python-oops'
+DATE='day-90-2026Apr4-agentic-ai'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 touch ${DATE}/README.md
