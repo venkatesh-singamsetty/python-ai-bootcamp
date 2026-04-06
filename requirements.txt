@@ -42,7 +42,10 @@ pyaudio
 pywhatkit
 
 # --- Generative AI & LangChain ---
-langchain           # LLM framework
+langchain==0.2.16           # Pinned core LLM framework (required for initialize_agent)
+langchain-core==0.2.43      # Dependencies for LangChain 0.2
+langchain-community==0.2.16 # Community tool integrations (e.g., DuckDuckGo)
+langchainhub                # LangChain prompt hub
 langchain-openai    # OpenAI bridge for LangChain
 langchain-google-genai # Google Gemini bridge for LangChain
 langgraph           # Building stateful AI agents
@@ -61,3 +64,5 @@ smolagents[transformers]
 duckduckgo-search
 litellm
 gradio
+phidata
+yfinance

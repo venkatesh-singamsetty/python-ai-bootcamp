@@ -4216,6 +4216,53 @@ same code pattern will automize
 		
 	crew ai -- multiagent 
 	
+	
+=== 4th
+Titanic dataset 
+
+=== 6th
+
+phi data 
+
+agentic ai framewrk are differnce 
+
+working style same 
+technical terms are same 
+
+phi agent ( name rebranding to agno agi) 
+
+- pip install dotenv
+
+
+1- n8n agents -- trigger node, action node 
+2- langchain agent 
+3- smolagent 
+4- phi agent
+5- crew ai -- is only build for multiagents 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
 
 
 
