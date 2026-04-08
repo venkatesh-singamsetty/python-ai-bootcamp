@@ -63,7 +63,7 @@ https://learn.nareshit.com/users/sign_in
 
 ## Push changes to remote repository
 ```bash
-DATE='day-89-2026Apr3-agentic-ai-smolagents'
+DATE='day-91-2026Apr6-agentic-ai'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 
@@ -79,12 +79,11 @@ tar -xf tmp.rar
 rm tmp.rar
 cd ..
 
-DATE='day-90-2026Apr4-agentic-ai'
+DATE='day-92-2026Apr7-agentic-ai'
 cd /Users/venkat/workspace/gitRepos/python-genAi-agenticAI
 mkdir -p ${DATE}
 touch ${DATE}/README.md
 touch ${DATE}/app.py
-cp tmp.ipynb ${DATE}/tmp.ipynb
 
 git add .
 git commit -am "Updated ${DATE}"; git push origin main; git status
@@ -132,6 +131,11 @@ if not api_key:
 # 3. Configure genai with the loaded API key
 genai.configure(api_key=api_key)
 print('GOOGLE_API_KEY from environment configured successfully.')
+```
+
+```bash
+ssh -i aws-venky-2026-key.pem ec2-user@3.137.205.41  
+
 ```
 
 ## Architectures
