@@ -62,5 +62,3 @@ if st.button("Get Insights"):
         st.markdown(trend_response.content)
     else:
         st.warning("Please enter a company name.")
-
-        

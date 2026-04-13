@@ -1,0 +1,73 @@
+=================
+OPENCLAW BOOTCAMP :-  
+Join: https://zoom.us/j/87158140121
+=================
+
+chatbot -- gpt bot -- generate code,generate image, genereate contnt
+			user you copy the content paste somewher the project will complete 
+
+ai agent -- virutal agent is automatical generate code, excute the code, create product for you 
+					
+open claw -- is one of virtual assistan ai agent 
+		
+ai agent framework -->
+			crew ai 
+			smol agents 
+			phi data 
+			autogen
+			google adk
+			open claw -- open source ai agent framework
+			n8n
+			
+how to use open claw & today we explore open claw 
+llms -- gpt, gemini, llama, grok, deepseek, claude 
+
+As open claw i dont want to install your pc , personal 		
+
+1- we dont use in our local pc 
+2- hostinger | godaddy 
+			either purcshase vps (300- 500)
+			install openclaw 
+3- docker , container host open claw
+4- linus vmsandbox 
+5 -- we will work togeter by instll using github 
+
+6- does everyone has github 
+
+
+1st step -- node --version
+
+2nd step -- 
+
+			
+			
+data 
+
+	 ml 
+	 ai -- text model 
+			image model 
+	gen ai 
+	agentic ai 
+	 
+=== 
+
+
+
+
+=== live video 
+https://www.youtube.com/watch?v=QdznP9S1wS0
+
+=== GIthub :
+https://github.com/kodigitaccount/Moltbot_Clawdbot_Openclaw
+
+=== Agentic AI Playlist
+https://www.youtube.com/playlist?list=PLVlQHNRLflP8Pt3wVlRWRaXZXi79cIwSq
+
+=======
+Follow this link to join my WhatsApp community: 
+https://chat.whatsapp.com/DqMB00ggVvRAYdm6EFrX2t
+
+=====NEW BATCH ANNOUNCEMENT=====
+Full Stack Data Science with Gen AI & Agentic AI @ 7:00 PM (IST) by Mr.Prakash Senapathi From 09th February
+Webinar Link: https://zoom.us/j/82006090582
+Registration Link: https://us06web.zoom.us/webinar/register/WN_gWsidGFEQNmtkMh902qqvQ
