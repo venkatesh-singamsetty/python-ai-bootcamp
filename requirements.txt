@@ -72,4 +72,5 @@ fastapi
 uvicorn
 pydantic
 
-
+# --- MLOps ---
+mlflow

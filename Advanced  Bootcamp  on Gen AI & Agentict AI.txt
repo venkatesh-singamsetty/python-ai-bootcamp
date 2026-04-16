@@ -4230,8 +4230,267 @@ working style same
 technical terms are same 
 
 phi agent ( name rebranding to agno agi) 
+pip install dotenv
 
-- pip install dotenv
+=== 7th
+
+crew ai another agentic ai framework developed only to build multiagent 
+
+project-1 --> crew ai will integration with opne ai + serper api key tool 
+project-2 --> crew ai will integre awith gemini 
+
+Serper api key -->
+ddgs -- web search 
+save the code -- crew ai code please save it 
+crew ai using gemini  
+
+=== 
+agentic ai deveoper -- 
+===
+
+== fast api 
+
+2025 -- | 5yr in agentic ai developer 
+
+I will write 10 yr exapre agentic ai develper 
+
+ai project 
+	chatbot for bankin gapplication 
+agents on our ecosyste -- existing 
+
+working profession -->
+--
+please try to integrate with llm create story project + llm + agent 
+			small poc for your self 
+			complete picture -- your resume projec uunique ther eother 
+			
+1- Rag 
+2- Computer vision  (yolo model) 
+3- multiagent crew ai poc 
+4- customer feed back analysis ( ticketing for your product
+5- anthropic llm project 
+6- langchain + pandas
+
+MCP -- 
+FASTAPI--
+OPENCLAW AGENT --
+Review every from day - 1
+Resume fresher, 18yr experience 
+good bye 
+-- stay with me for lifetime if you any concern happy to connect 
+
+one person cannot learn every subject  --
+situaton based learning is very very important 
+the one who  finish -- alwasy he grow 
+
+he complete a-z | not even 
+
+== future you 
+
+12th --- anthrpic complet llms 
+workshop 
+
+=== 8th 
+
+MCP ( Model context protocol) 
+
+ 
+MCP is the wiring system connect between llm & agnent to acces any application 
+
+anthropic -- directly from web page -- www.anthopic.com 
+claude desktop 
+
+gpt, gemin, llma -- eveyrthing workin website 
+claude desktop somethin you need to instll in your machine 
+
+ 
+
+ 1- Download claude desktop from Internet | test it 
+ 2- cdrive| create folder | just create 2 text file & add some text | prakash | hello.txt & hi.txt 
+ 3- mcp github - click on  mcp server
+ 4- cmd -- node --version | or else please download from nodejs downlad 
+ 4- file system -- copy the npx code 
+	{
+  "servers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "${workspaceFolder}"
+      ]
+    }
+  }
+}
+
+
+how to connect mcp server to mcp client 
+mcp client --- claude desktop
+mcp server -- filesystem , airbnb  
+cline -- setting -- mcp -- add all npm code to add there 
+
+==== 9th 
+every problem there is solution 
+do not complain please think calm and do some 
+
+mcp server connected to 
+	claude desktop
+	cursor
+	cline
+	antigravity 
+	codex 
+	blackbox agent
+	kimi
+	
+==== 10th 
+
+MCP using various agentic ai ides 
+NIT introce one platform wheren you can publish your project 
+
+office today the batch will be complete 
+next week -- mlops, cicd, revision , project new platform, 
+ 
+openclaw in you -- personal data )
+
+=== 13th
+claude -- claude.com -- direclty llm model (paid user) 
+
+=== 14th 
+codex desktop -- act same kind of thinghs what ever done by claude 
+
+chatgpt -- web ( cannont access local file) 
+codex -- desktop ( local file sytem) 
+
+== i want you to explore this -- after class 
+
+== mlops 
+machine learning model -- 
+ml + Ops ( monitoring ) 
+
+operational manager -->
+  1project -- 20 employee -- mangae must need to track 
+  
+ logi time
+ logout 
+ project 
+ bugh 
+ deb
+
+ every ml model also need to monitore ??? 
+ 
+ every tiem data will keep adding in your dbs | 
+ one model you build once it cannot run for lifetime 
+						
+2015- 2018 -- model v1.0 -- logistic regresison model -- 85% 
+2019 - 2022 -- model v2.0 - random forest -- 90%
+2023-2026-- model v3.0 -- lgbm -- 91% 
+			moniring much better 
+	
+when you build system -- model has to post some ui -- 
+any one monitor buy tsee the ui 
+
+1project -- 1yr 
+if any bug comes -- hard time to go back analys sall the model scrate manually 
+cicd -- topic comes to the picture 	
+			
+mlflow.set_experiment
+mlflow.set_tracking_uri
+.log_mode
+.log_metrics 
+
+
+whene ml developer add new data with new ml model -- everytiem the old model that 
+	we monitored 
+who ever not work please work after the class 
+
+====  15th
+
+connected to mlflow using various way -- ops, using file handing, manual way
+
+CICD PIPELINE
+
+data processing pipeline 
+ml workflow
+computer visin workflow 
+langgraph workflow 
+agentic ai workflow
+
+== cicd pipeline 
+
+experience -- advice ( how the data is secure when use in our projet) 
+
+all llm not only implemnt in your project 
+
+llm -- espan stars,ipl, footcb
+	mobild 
+	playe lot of app wher llm is use 
+	
+cicd -- ml project 1yr 
+
+	data cleaning (3-4 months) 
+	eda, stats, 1month
+	model building 
+	model testing 
+	deploement 
+	
+depoyment at bugs-- you have to do it again from the begining 
+	manula step -- take 
+	cicd pipeline has create to automaization 
+	
+workflow -- collection of job run 
+
+1- requirement.txt
+2- train.py
+
+
+
+	
+
+
+
+
+
+			
+
+	
+
+
+ 
+
+
+
+
+
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
 
 
 1- n8n agents -- trigger node, action node 
